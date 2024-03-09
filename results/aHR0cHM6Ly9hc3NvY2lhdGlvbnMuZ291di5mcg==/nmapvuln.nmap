@@ -1,0 +1,86 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:20:30 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln associations.gouv.fr
+Nmap scan report for associations.gouv.fr (185.194.83.17)
+Host is up (0.093s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE  SERVICE    VERSION
+80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
+|_http-server-header: BigIP
+113/tcp closed ident
+443/tcp open   ssl/https
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Date: Sat, 09 Mar 2024 14:20:50 GMT
+|     X-Spip-Cache: 86400
+|     Last-Modified: Sat, 09 Mar 2024 14:20:50 GMT
+|     Vary: Accept-Encoding
+|     Connection: close
+|     Content-Type: text/html; charset=utf-8
+|     Set-Cookie: BIGipServerpool-djepva-association2.cegedim.cloud-HTTP=!rkRdwLGtbPu9KvxWDPlD0yXzT0UGhurE160qvoDViblVcfRNQnejh/Uk15bpQ1kNBtaCJ9EUwnflW0xpOVtb3GJrJdQ=; path=/; Httponly; Secure
+|     Strict-Transport-Security: max-age=31536000; includeSubDomains
+|     <!DOCTYPE HTML>
+|     <html class="page_sommaire sans_composition ltr fr no-js" lang="fr" dir="ltr">
+|     <head>
+|     <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/bno-jsb/,'js')})(document.documentElement);/*]]>*/</script>
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+|     <title>Associations.gouv.fr | Cr
+|     velopper son association</title>
+|     <meta name="description
+|   HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Date: Sat, 09 Mar 2024 14:20:50 GMT
+|     X-Spip-Cache: 86400
+|     Last-Modified: Sat, 09 Mar 2024 14:20:50 GMT
+|     Vary: Accept-Encoding
+|     Connection: close
+|     Content-Type: text/html; charset=utf-8
+|     Set-Cookie: BIGipServerpool-djepva-association2.cegedim.cloud-HTTP=!/iBoHo0u2lljaipWDPlD0yXzT0UGhoIeDItispv87wIie70XxQrSf93jkasW1+64cNlRTHx+VlOtOoWduBtUi1fMklo=; path=/; Httponly; Secure
+|     Strict-Transport-Security: max-age=31536000; includeSubDomains
+|     <!DOCTYPE HTML>
+|     <html class="page_sommaire sans_composition ltr fr no-js" lang="fr" dir="ltr">
+|     <head>
+|     <script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/bno-jsb/,'js')})(document.documentElement);/*]]>*/</script>
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+|     <title>Associations.gouv.fr | Cr
+|     velopper son association</title>
+|_    <meta name="description
+|_http-trane-info: Problem with XML parsing of /evox/about
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC7042%P=x86_64-alpine-linux-
+SF:musl%r(GetRequest,11D4,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sat,\x2009\x
+SF:20Mar\x202024\x2014:20:50\x20GMT\r\nX-Spip-Cache:\x2086400\r\nLast-Modi
+SF:fied:\x20Sat,\x2009\x20Mar\x202024\x2014:20:50\x20GMT\r\nVary:\x20Accep
+SF:t-Encoding\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20ch
+SF:arset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-djepva-association2\.cege
+SF:dim\.cloud-HTTP=!rkRdwLGtbPu9KvxWDPlD0yXzT0UGhurE160qvoDViblVcfRNQnejh/
+SF:Uk15bpQ1kNBtaCJ9EUwnflW0xpOVtb3GJrJdQ=;\x20path=/;\x20Httponly;\x20Secu
+SF:re\r\nStrict-Transport-Security:\x20max-age=31536000;\x20includeSubDoma
+SF:ins\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20sans_c
+SF:omposition\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t<h
+SF:ead>\n\t\t<script\x20type='text/javascript'>/\*<!\[CDATA\[\*/\(function
+SF:\(H\){H\.className=H\.className\.replace\(/\\bno-js\\b/,'js'\)}\)\(docu
+SF:ment\.documentElement\);/\*\]\]>\*/</script>\n\t\t\n\t\t<meta\x20http-e
+SF:quiv=\"Content-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>\
+SF:n\n\t\t<title>Associations\.gouv\.fr\x20\|\x20Cr\xc3\xa9er,\x20g\xc3\xa
+SF:9rer\x20et\x20d\xc3\xa9velopper\x20son\x20association</title>\r\n<meta\
+SF:x20name=\"description")%r(HTTPOptions,11F8,"HTTP/1\.1\x20200\x20OK\r\nD
+SF:ate:\x20Sat,\x2009\x20Mar\x202024\x2014:20:50\x20GMT\r\nX-Spip-Cache:\x
+SF:2086400\r\nLast-Modified:\x20Sat,\x2009\x20Mar\x202024\x2014:20:50\x20G
+SF:MT\r\nVary:\x20Accept-Encoding\r\nConnection:\x20close\r\nContent-Type:
+SF:\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-djepv
+SF:a-association2\.cegedim\.cloud-HTTP=!/iBoHo0u2lljaipWDPlD0yXzT0UGhoIeDI
+SF:tispv87wIie70XxQrSf93jkasW1\+64cNlRTHx\+VlOtOoWduBtUi1fMklo=;\x20path=/
+SF:;\x20Httponly;\x20Secure\r\nStrict-Transport-Security:\x20max-age=31536
+SF:000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20class=\"p
+SF:age_sommaire\x20sans_composition\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"
+SF:\x20dir=\"ltr\">\n\t<head>\n\t\t<script\x20type='text/javascript'>/\*<!
+SF:\[CDATA\[\*/\(function\(H\){H\.className=H\.className\.replace\(/\\bno-
+SF:js\\b/,'js'\)}\)\(document\.documentElement\);/\*\]\]>\*/</script>\n\t\
+SF:t\n\t\t<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x20
+SF:charset=utf-8\"\x20/>\n\n\t\t<title>Associations\.gouv\.fr\x20\|\x20Cr\
+SF:xc3\xa9er,\x20g\xc3\xa9rer\x20et\x20d\xc3\xa9velopper\x20son\x20associa
+SF:tion</title>\r\n<meta\x20name=\"description");
+Service Info: Device: load balancer
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 14:23:01 2024 -- 1 IP address (1 host up) scanned in 151.14 seconds
