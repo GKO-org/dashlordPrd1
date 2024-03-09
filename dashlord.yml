@@ -24,7 +24,7 @@ tools:
   budget_page: true
   betagouv: true
 urls:
-  - url: 1jeune1solution.gouv.fr
+  - url: httph://1jeune1solution.gouv.fr
   - url: 52histoires2021.ademe.fr
   - url: academie-renseignement.gouv.fr
   - url: adaptation-changement-climatique.gouv.fr
