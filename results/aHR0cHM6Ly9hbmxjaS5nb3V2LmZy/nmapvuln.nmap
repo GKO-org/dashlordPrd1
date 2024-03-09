@@ -1,0 +1,128 @@
+# Nmap 7.92 scan initiated Sat Mar  9 14:08:42 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln anlci.gouv.fr
+Nmap scan report for anlci.gouv.fr (54.38.240.231)
+Host is up (0.15s latency).
+rDNS record for 54.38.240.231: vps-f93df518.vps.ovh.net
+Not shown: 939 filtered tcp ports (no-response), 56 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           ProFTPD (requires SSL)
+22/tcp   open  ssh           OpenSSH 8.9p1 Ubuntu 3ubuntu0.6 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http          nginx
+443/tcp  open  ssl/http      nginx
+8443/tcp open  ssl/https-alt sw-cp-server
+|_http-server-header: sw-cp-server
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 404 Not Found
+|     Server: sw-cp-server
+|     Date: Sat, 09 Mar 2024 14:09:03 GMT
+|     Content-Type: text/html
+|     Content-Length: 908
+|     Connection: close
+|     ETag: "65e057ff-38c"
+|     <!DOCTYPE html>
+|     <!-- Copyright 1999-2024. WebPros International GmbH. All rights reserved. -->
+|     <html lang="en" dir="ltr">
+|     <head>
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+|     <title>404 Page Not Found</title>
+|     <link rel="shortcut icon" href="/favicon.ico">
+|     <link rel="stylesheet" href="/ui-library/plesk-ui-library.css?3.36.1">
+|     <script src="/ui-library/plesk-ui-library.min.js?3.36.1"></script>
+|     <script src="/cp/javascript/vendors.js"></script>
+|     <script src="/cp/javascript/main.js"></script>
+|     <script src="/error_docs/uat.js?v3"></script>
+|     <link href="/error_docs/app.css?95f9d7c2198d1ed04949" rel="stylesheet"></head>
+|     <body>
+|     <div
+|   GetRequest: 
+|     HTTP/1.1 303 See Other
+|     Server: sw-cp-server
+|     Date: Sat, 09 Mar 2024 14:09:01 GMT
+|     Content-Type: text/html; charset=UTF-8
+|     Connection: close
+|     Expires: Fri, 28 May 1999 00:00:00 GMT
+|     Last-Modified: Sat, 09 Mar 2024 14:09:01 GMT
+|     Cache-Control: no-store, no-cache, must-revalidate
+|     Cache-Control: post-check=0, pre-check=0
+|     Pragma: no-cache
+|     P3P: CP="NON COR CURa ADMa OUR NOR UNI COM NAV STA"
+|     X-Frame-Options: SAMEORIGIN
+|     X-XSS-Protection: 1; mode=block
+|     Location: https://localhost:8443/login.php
+|     X-Content-Type-Options: nosniff
+|   HTTPOptions: 
+|     HTTP/1.1 405 Not Allowed
+|     Server: sw-cp-server
+|     Date: Sat, 09 Mar 2024 14:09:02 GMT
+|     Content-Type: text/html
+|     Content-Length: 916
+|     Connection: close
+|     ETag: "65e057ff-394"
+|     <!DOCTYPE html>
+|     <!-- Copyright 1999-2024. WebPros International GmbH. All rights reserved. -->
+|     <html lang="en" dir="ltr">
+|     <head>
+|     <meta charset="utf-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+|     <title>405 Method Not Allowed</title>
+|     <link rel="shortcut icon" href="/favicon.ico">
+|     <link rel="stylesheet" href="/ui-library/plesk-ui-library.css?3.36.1">
+|     <script src="/ui-library/plesk-ui-library.min.js?3.36.1"></script>
+|     <script src="/cp/javascript/vendors.js"></script>
+|     <script src="/cp/javascript/main.js"></script>
+|     <script src="/error_docs/uat.js?v3"></script>
+|     <link href="/error_docs/app.css?95f9d7c2198d1ed04949" rel="stylesheet"></head>
+|_    <body>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8443-TCP:V=7.92%T=SSL%I=7%D=3/9%Time=65EC6D7E%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,216,"HTTP/1\.1\x20303\x20See\x20Other\r\nServer:\x20
+SF:sw-cp-server\r\nDate:\x20Sat,\x2009\x20Mar\x202024\x2014:09:01\x20GMT\r
+SF:\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nConnection:\x20close\
+SF:r\nExpires:\x20Fri,\x2028\x20May\x201999\x2000:00:00\x20GMT\r\nLast-Mod
+SF:ified:\x20Sat,\x2009\x20Mar\x202024\x2014:09:01\x20GMT\r\nCache-Control
+SF::\x20no-store,\x20no-cache,\x20must-revalidate\r\nCache-Control:\x20pos
+SF:t-check=0,\x20pre-check=0\r\nPragma:\x20no-cache\r\nP3P:\x20CP=\"NON\x2
+SF:0COR\x20CURa\x20ADMa\x20OUR\x20NOR\x20UNI\x20COM\x20NAV\x20STA\"\r\nX-F
+SF:rame-Options:\x20SAMEORIGIN\r\nX-XSS-Protection:\x201;\x20mode=block\r\
+SF:nLocation:\x20https://localhost:8443/login\.php\r\nX-Content-Type-Optio
+SF:ns:\x20nosniff\r\n\r\n")%r(HTTPOptions,442,"HTTP/1\.1\x20405\x20Not\x20
+SF:Allowed\r\nServer:\x20sw-cp-server\r\nDate:\x20Sat,\x2009\x20Mar\x20202
+SF:4\x2014:09:02\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x
+SF:20916\r\nConnection:\x20close\r\nETag:\x20\"65e057ff-394\"\r\n\r\n<!DOC
+SF:TYPE\x20html>\n<!--\x20Copyright\x201999-2024\.\x20WebPros\x20Internati
+SF:onal\x20GmbH\.\x20All\x20rights\x20reserved\.\x20-->\n<html\x20lang=\"e
+SF:n\"\x20dir=\"ltr\">\n<head>\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\"
+SF:>\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device
+SF:-width,\x20initial-scale=1,\x20shrink-to-fit=no\">\n\x20\x20\x20\x20<ti
+SF:tle>405\x20Method\x20Not\x20Allowed</title>\n\x20\x20\x20\x20<link\x20r
+SF:el=\"shortcut\x20icon\"\x20href=\"/favicon\.ico\">\n\x20\x20\x20\x20<li
+SF:nk\x20rel=\"stylesheet\"\x20href=\"/ui-library/plesk-ui-library\.css\?3
+SF:\.36\.1\">\n\x20\x20\x20\x20<script\x20src=\"/ui-library/plesk-ui-libra
+SF:ry\.min\.js\?3\.36\.1\"></script>\n\x20\x20\x20\x20<script\x20src=\"/cp
+SF:/javascript/vendors\.js\"></script>\n\x20\x20\x20\x20<script\x20src=\"/
+SF:cp/javascript/main\.js\"></script>\n\x20\x20\x20\x20<script\x20src=\"/e
+SF:rror_docs/uat\.js\?v3\"></script>\n<link\x20href=\"/error_docs/app\.css
+SF:\?95f9d7c2198d1ed04949\"\x20rel=\"stylesheet\"></head>\n<body>")%r(Four
+SF:OhFourRequest,438,"HTTP/1\.1\x20404\x20Not\x20Found\r\nServer:\x20sw-cp
+SF:-server\r\nDate:\x20Sat,\x2009\x20Mar\x202024\x2014:09:03\x20GMT\r\nCon
+SF:tent-Type:\x20text/html\r\nContent-Length:\x20908\r\nConnection:\x20clo
+SF:se\r\nETag:\x20\"65e057ff-38c\"\r\n\r\n<!DOCTYPE\x20html>\n<!--\x20Copy
+SF:right\x201999-2024\.\x20WebPros\x20International\x20GmbH\.\x20All\x20ri
+SF:ghts\x20reserved\.\x20-->\n<html\x20lang=\"en\"\x20dir=\"ltr\">\n<head>
+SF:\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20<meta\x2
+SF:0name=\"viewport\"\x20content=\"width=device-width,\x20initial-scale=1,
+SF:\x20shrink-to-fit=no\">\n\x20\x20\x20\x20<title>404\x20Page\x20Not\x20F
+SF:ound</title>\n\x20\x20\x20\x20<link\x20rel=\"shortcut\x20icon\"\x20href
+SF:=\"/favicon\.ico\">\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20hre
+SF:f=\"/ui-library/plesk-ui-library\.css\?3\.36\.1\">\n\x20\x20\x20\x20<sc
+SF:ript\x20src=\"/ui-library/plesk-ui-library\.min\.js\?3\.36\.1\"></scrip
+SF:t>\n\x20\x20\x20\x20<script\x20src=\"/cp/javascript/vendors\.js\"></scr
+SF:ipt>\n\x20\x20\x20\x20<script\x20src=\"/cp/javascript/main\.js\"></scri
+SF:pt>\n\x20\x20\x20\x20<script\x20src=\"/error_docs/uat\.js\?v3\"></scrip
+SF:t>\n<link\x20href=\"/error_docs/app\.css\?95f9d7c2198d1ed04949\"\x20rel
+SF:=\"stylesheet\"></head>\n<body>\n<div\x20");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Mar  9 14:09:27 2024 -- 1 IP address (1 host up) scanned in 44.83 seconds
