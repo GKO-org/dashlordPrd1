@@ -374,7 +374,7 @@
               "ip"           : "anlci.gouv.fr/54.38.240.231",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "78 >= 30 days"
+              "finding"      : "76 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -535,7 +535,7 @@
               "ip"           : "anlci.gouv.fr/54.38.240.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709993281"
+              "finding"      : "1710183286"
           }
 ,         {
               "id"           : "HSTS",
@@ -1091,6 +1091,6 @@
               "ip"           : "anlci.gouv.fr/54.38.240.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "100"
+              "finding"      : "53"
           }
 ]
