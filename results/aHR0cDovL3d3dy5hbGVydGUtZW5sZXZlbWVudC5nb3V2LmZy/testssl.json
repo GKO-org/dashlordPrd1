@@ -11,13 +11,13 @@
               "ip"           : "www.alerte-enlevement.gouv.fr/185.24.185.190",
               "port"         : "443",
               "severity"     : "FATAL",
-              "finding"      : "Couldn't connect to 185.24.185.190:443, proceeding with next IP (if any)"
+              "finding"      : "repeated TCP connect problems, giving up"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "www.alerte-enlevement.gouv.fr/185.24.185.190",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3"
+              "finding"      : "2"
           }
 ]
