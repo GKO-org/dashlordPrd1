@@ -346,7 +346,7 @@
               "ip"           : "ants.gouv.fr/66.22.33.160",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "81 >= 60 days"
+              "finding"      : "79 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "ants.gouv.fr/66.22.33.160",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1709993383"
+              "finding"      : "1710183401"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -577,7 +577,7 @@
               "ip"           : "ants.gouv.fr/66.22.33.160",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-21de6087-e220-4880-810f-9ec8d64159ac';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com https://*.ants.gouv.fr;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'"
+              "finding"      : "default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr 'nonce-947f8a42-7e7e-4dc6-a8f5-cebc392643ab';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com https://*.ants.gouv.fr;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'"
           }
 ,         {
               "id"           : "Permissions-Policy",
@@ -1105,6 +1105,6 @@
               "ip"           : "ants.gouv.fr/66.22.33.160",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "68"
+              "finding"      : "116"
           }
 ]
