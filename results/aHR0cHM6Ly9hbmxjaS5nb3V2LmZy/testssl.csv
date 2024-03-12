@@ -74,7 +74,7 @@
 "intermediate_cert_badOCSP","anlci.gouv.fr/54.38.240.231","443","OK","intermediate certificate(s) is/are ok","",""
 "HTTP_status_code","anlci.gouv.fr/54.38.240.231","443","INFO","301 Moved Permanently ('/')","",""
 "HTTP_clock_skew","anlci.gouv.fr/54.38.240.231","443","INFO","0 seconds from localtime","",""
-"HTTP_headerTime","anlci.gouv.fr/54.38.240.231","443","INFO","1710183286","",""
+"HTTP_headerTime","anlci.gouv.fr/54.38.240.231","443","INFO","1710239845","",""
 "HSTS","anlci.gouv.fr/54.38.240.231","443","LOW","not offered","",""
 "HPKP","anlci.gouv.fr/54.38.240.231","443","INFO","No support for HTTP Public Key Pinning","",""
 "banner_server","anlci.gouv.fr/54.38.240.231","443","INFO","nginx","",""

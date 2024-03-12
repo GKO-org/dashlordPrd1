@@ -535,7 +535,7 @@
               "ip"           : "anlci.gouv.fr/54.38.240.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710183286"
+              "finding"      : "1710239845"
           }
 ,         {
               "id"           : "HSTS",
@@ -1091,6 +1091,6 @@
               "ip"           : "anlci.gouv.fr/54.38.240.231",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "53"
+              "finding"      : "100"
           }
 ]
