@@ -1,0 +1,16 @@
+[
+         {
+              "id"           : "scanProblem",
+              "ip"           : "www.anc.gouv.fr/193.17.19.48",
+              "port"         : "443",
+              "severity"     : "FATAL",
+              "finding"      : "Can't connect to '193.17.19.48:443' Make sure a firewall is not between you and your scanning target!"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "www.anc.gouv.fr/193.17.19.48",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "Scan interrupted"
+          }
+]
