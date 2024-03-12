@@ -199,14 +199,14 @@
               "ip"           : "agentconnect.gouv.fr/109.232.236.90",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
               "ip"           : "agentconnect.gouv.fr/109.232.236.90",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -507,7 +507,7 @@
               "ip"           : "agentconnect.gouv.fr/109.232.236.90",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710181912"
+              "finding"      : "1710238124"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1573,7 +1573,7 @@
               "ip"           : "agentconnect.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710182016"
+              "finding"      : "1710238181"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2136,6 +2136,6 @@
               "ip"           : "agentconnect.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "207"
+              "finding"      : "114"
           }
 ]
