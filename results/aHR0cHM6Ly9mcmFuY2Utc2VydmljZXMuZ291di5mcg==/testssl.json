@@ -339,7 +339,7 @@
               "ip"           : "france-services.gouv.fr/45.223.60.83",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "196 >= 60 days"
+              "finding"      : "69 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1440,7 +1440,7 @@
               "ip"           : "france-services.gouv.fr/45.223.153.83",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "196 >= 60 days"
+              "finding"      : "69 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -2206,6 +2206,6 @@
               "ip"           : "france-services.gouv.fr/45.223.153.83",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "144"
+              "finding"      : "134"
           }
 ]
