@@ -262,7 +262,7 @@
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DE9E7A2FFE6A9CEE733E7CC5437F21E2"
+              "finding"      : "A85EA4FA749622229DA83527FAA28518"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "826A1965F7E1F29262CC933810F88C530D610EDE"
+              "finding"      : "113ADE08C983F809FBC9933172E03BA5C0727373"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B420792F650D1F09DEB28629659338172CD5A522B7AFD4B427755D4C032C9E19"
+              "finding"      : "C4F8F545997E59953C2AADF98A08319E345707D3A0A25DB102FDF36D590C1EAC"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.ardennes.gouv.fr ardennes.gouv.fr"
+              "finding"      : "ardennes.gouv.fr www.ardennes.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -339,21 +339,21 @@
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "64 >= 60 days"
+              "finding"      : "304 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-04-16 22:00"
+              "finding"      : "2024-04-17 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-05-15 21:59"
+              "finding"      : "2025-05-17 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -500,7 +500,7 @@
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710240254"
+              "finding"      : "1721228900"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=B420792F650D1F09DEB28629659338172CD5A522B7AFD4B427755D4C032C9E19"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C4F8F545997E59953C2AADF98A08319E345707D3A0A25DB102FDF36D590C1EAC"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "ardennes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "92"
+              "finding"      : "102"
           }
 ]
