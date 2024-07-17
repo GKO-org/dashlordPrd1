@@ -1,38 +1,117 @@
-# Nmap 7.92 scan initiated Tue Mar 12 10:50:45 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln arretonslesviolences.gouv.fr
-Nmap scan report for arretonslesviolences.gouv.fr (185.194.82.16)
-Host is up (0.15s latency).
+# Nmap 7.92 scan initiated Wed Jul 17 15:14:25 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln arretonslesviolences.gouv.fr
+Nmap scan report for arretonslesviolences.gouv.fr (185.194.82.152)
+Host is up (0.081s latency).
 Not shown: 997 filtered tcp ports (no-response)
-PORT    STATE  SERVICE    VERSION
-80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
-|_http-server-header: BigIP
+PORT    STATE  SERVICE   VERSION
+80/tcp  open   http
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+|     Connection: close
+|     Content-Length: 0
+|   GetRequest, HTTPOptions, RTSPRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Location: https:///
+|     Connection: close
+|     Content-Length: 0
+|   SIPOptions: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Location: https://sip:nm
+|     Connection: close
+|_    Content-Length: 0
 113/tcp closed ident
 443/tcp open   ssl/https
 | fingerprint-strings: 
-|   FourOhFourRequest: 
-|     HTTP/1.0 404 Not Found
+|   GetRequest: 
+|     HTTP/1.0 200 OK
+|     Date: Wed, 17 Jul 2024 15:14:45 GMT
+|     X-Content-Type-Options: nosniff
+|     Upgrade: h2,h2c
 |     Connection: close
-|     Content-Length: 9
-|     ERROR
+|     Cache-Control: max-age=43200, public
+|     X-Drupal-Dynamic-Cache: HIT
+|     Content-language: fr
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: SAMEORIGIN
+|     Expires: Sun, 19 Nov 1978 05:00:00 GMT
+|     Last-Modified: Sun, 14 Jul 2024 02:48:40 GMT
+|     X-Generator: Drupal 10 (https://www.drupal.org)
+|     Content-Length: 55851
+|     X-Drupal-Cache: HIT
+|     Access-Control-Allow-Origin: *
+|     Vary: Accept-Encoding
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: BIGipServerpool-arlv-production.cegedim.cloud-TCP80=!Ug7MMS0iq5vSxVVWDPlD0yXzT0UGhkqXNvsovbJdz0htVRvdroQP6Q4iNlm9SepZk7X/NiujPisYW9HXs1aRbuKlrk4=; path=/; Httponly; Secure
+|     Strict-Transport-Security: max-age=31536000; includeSubDomains
+|     <!DOCTYPE html>
+|     <html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/
 |   HTTPOptions: 
-|     HTTP/1.0 403 Forbidden
+|     HTTP/1.0 200 OK
+|     Date: Wed, 17 Jul 2024 15:14:45 GMT
+|     X-Content-Type-Options: nosniff
+|     Upgrade: h2,h2c
 |     Connection: close
-|     Content-Length: 9
-|     ERROR
-|   RTSPRequest, SIPOptions: 
-|     HTTP/1.0 400 Bad Request
-|     Connection: close
-|     Content-Length: 9
-|_    ERROR
-1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=3/12%Time=65F033A1%P=x86_64-alpine-linux
-SF:-musl%r(HTTPOptions,49,"HTTP/1\.0\x20403\x20Forbidden\r\nConnection:\x2
-SF:0close\r\nContent-Length:\x209\r\n\r\n403\x20ERROR")%r(FourOhFourReques
-SF:t,49,"HTTP/1\.0\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nConte
-SF:nt-Length:\x209\r\n\r\n404\x20ERROR")%r(RTSPRequest,4B,"HTTP/1\.0\x2040
-SF:0\x20Bad\x20Request\r\nConnection:\x20close\r\nContent-Length:\x209\r\n
-SF:\r\n400\x20ERROR")%r(SIPOptions,4B,"HTTP/1\.0\x20400\x20Bad\x20Request\
-SF:r\nConnection:\x20close\r\nContent-Length:\x209\r\n\r\n400\x20ERROR");
-Service Info: Device: load balancer
+|     Allow: GET, POST
+|     Cache-Control: must-revalidate, no-cache, private
+|     Content-language: fr
+|     X-Content-Type-Options: nosniff
+|     X-Frame-Options: SAMEORIGIN
+|     expires: -1
+|     X-Generator: Drupal 10 (https://www.drupal.org)
+|     Content-Length: 0
+|     Vary: Access-Control-Request-Method,Accept-Encoding
+|     Access-Control-Allow-Origin: *
+|     pragma: no-cache
+|     Content-Type: text/html; charset=UTF-8
+|     Set-Cookie: BIGipServerpool-arlv-production.cegedim.cloud-TCP80=!bnuS2e9iVaFRzpRWDPlD0yXzT0UGhgBGjuAYsazhmxCtPPiOG681J+GNZ5F14mNii+z4Btc+tNesqDGf8N8S/cajRGI=; path=/; Httponly; Secure
+|_    Strict-Transport-Security: max-age=31536000; includeSubDomains
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=7/17%Time=6697DFDE%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x
+SF:20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%r
+SF:(HTTPOptions,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\
+SF:x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")%
+SF:r(RTSPRequest,5D,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:
+SF:\x20https:///\r\nConnection:\x20close\r\nContent-Length:\x200\r\n\r\n")
+SF:%r(FourOhFourRequest,80,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLo
+SF:cation:\x20https:///nice%20ports%2C/Tri%6Eity\.txt%2ebak\r\nConnection:
+SF:\x20close\r\nContent-Length:\x200\r\n\r\n")%r(SIPOptions,62,"HTTP/1\.0\
+SF:x20302\x20Moved\x20Temporarily\r\nLocation:\x20https://sip:nm\r\nConnec
+SF:tion:\x20close\r\nContent-Length:\x200\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=7/17%Time=6697DFE5%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,394C,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Wed,\x2017\
+SF:x20Jul\x202024\x2015:14:45\x20GMT\r\nX-Content-Type-Options:\x20nosniff
+SF:\r\nUpgrade:\x20h2,h2c\r\nConnection:\x20close\r\nCache-Control:\x20max
+SF:-age=43200,\x20public\r\nX-Drupal-Dynamic-Cache:\x20HIT\r\nContent-lang
+SF:uage:\x20fr\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Options:\x
+SF:20SAMEORIGIN\r\nExpires:\x20Sun,\x2019\x20Nov\x201978\x2005:00:00\x20GM
+SF:T\r\nLast-Modified:\x20Sun,\x2014\x20Jul\x202024\x2002:48:40\x20GMT\r\n
+SF:X-Generator:\x20Drupal\x2010\x20\(https://www\.drupal\.org\)\r\nContent
+SF:-Length:\x2055851\r\nX-Drupal-Cache:\x20HIT\r\nAccess-Control-Allow-Ori
+SF:gin:\x20\*\r\nVary:\x20Accept-Encoding\r\nContent-Type:\x20text/html;\x
+SF:20charset=UTF-8\r\nSet-Cookie:\x20BIGipServerpool-arlv-production\.cege
+SF:dim\.cloud-TCP80=!Ug7MMS0iq5vSxVVWDPlD0yXzT0UGhkqXNvsovbJdz0htVRvdroQP6
+SF:Q4iNlm9SepZk7X/NiujPisYW9HXs1aRbuKlrk4=;\x20path=/;\x20Httponly;\x20Sec
+SF:ure\r\nStrict-Transport-Security:\x20max-age=31536000;\x20includeSubDom
+SF:ains\r\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=\"fr\"\x20dir=\"ltr\"\x20
+SF:prefix=\"content:\x20http://purl\.org/rss/1\.0/modules/content/\x20\x20
+SF:")%r(HTTPOptions,2EF,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Wed,\x2017\x20
+SF:Jul\x202024\x2015:14:45\x20GMT\r\nX-Content-Type-Options:\x20nosniff\r\
+SF:nUpgrade:\x20h2,h2c\r\nConnection:\x20close\r\nAllow:\x20GET,\x20POST\r
+SF:\nCache-Control:\x20must-revalidate,\x20no-cache,\x20private\r\nContent
+SF:-language:\x20fr\r\nX-Content-Type-Options:\x20nosniff\r\nX-Frame-Optio
+SF:ns:\x20SAMEORIGIN\r\nexpires:\x20-1\r\nX-Generator:\x20Drupal\x2010\x20
+SF:\(https://www\.drupal\.org\)\r\nContent-Length:\x200\r\nVary:\x20Access
+SF:-Control-Request-Method,Accept-Encoding\r\nAccess-Control-Allow-Origin:
+SF:\x20\*\r\npragma:\x20no-cache\r\nContent-Type:\x20text/html;\x20charset
+SF:=UTF-8\r\nSet-Cookie:\x20BIGipServerpool-arlv-production\.cegedim\.clou
+SF:d-TCP80=!bnuS2e9iVaFRzpRWDPlD0yXzT0UGhgBGjuAYsazhmxCtPPiOG681J\+GNZ5F14
+SF:mNii\+z4Btc\+tNesqDGf8N8S/cajRGI=;\x20path=/;\x20Httponly;\x20Secure\r\
+SF:nStrict-Transport-Security:\x20max-age=31536000;\x20includeSubDomains\r
+SF:\n\r\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Mar 12 10:53:28 2024 -- 1 IP address (1 host up) scanned in 163.31 seconds
+# Nmap done at Wed Jul 17 15:17:09 2024 -- 1 IP address (1 host up) scanned in 163.33 seconds

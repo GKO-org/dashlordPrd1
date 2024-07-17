@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln arretonslesviolences.gouv.fr</pre>
-<p class="lead">Tue Mar 12 10:50:45 2024 – Tue Mar 12 10:53:28 2024<br>1 hosts scanned.
+<p class="lead">Wed Jul 17 15:14:25 2024 – Wed Jul 17 15:17:09 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>185.194.82.16</td>
+<td>185.194.82.152</td>
 <td>arretonslesviolences.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,8 +91,8 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-194-82-16"><h3 class="panel-title">185.194.82.16 - arretonslesviolences.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="185-194-82-16">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-194-82-152"><h3 class="panel-title">185.194.82.152 - arretonslesviolences.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="185-194-82-152">
 <h4>Hostnames</h4>
 <ul><li>arretonslesviolences.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
@@ -111,14 +111,29 @@
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http-proxy</td>
-<td title="Product">F5 BIG-IP load balancer http proxy</td>
+<td title="Service">http</td>
+<td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">BigIP</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  FourOhFourRequest: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https:///nice%20ports%2C/Tri%6Eity.txt%2ebak
+    Connection: close
+    Content-Length: 0
+  GetRequest, HTTPOptions, RTSPRequest: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https:///
+    Connection: close
+    Content-Length: 0
+  SIPOptions: 
+    HTTP/1.0 302 Moved Temporarily
+    Location: https://sip:nm
+    Connection: close
+    Content-Length: 0</pre>
 </td></tr>
 <tr class="active">
 <td>113</td>
@@ -141,21 +156,49 @@
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  FourOhFourRequest: 
-    HTTP/1.0 404 Not Found
+  GetRequest: 
+    HTTP/1.0 200 OK
+    Date: Wed, 17 Jul 2024 15:14:45 GMT
+    X-Content-Type-Options: nosniff
+    Upgrade: h2,h2c
     Connection: close
-    Content-Length: 9
-    ERROR
+    Cache-Control: max-age=43200, public
+    X-Drupal-Dynamic-Cache: HIT
+    Content-language: fr
+    X-Content-Type-Options: nosniff
+    X-Frame-Options: SAMEORIGIN
+    Expires: Sun, 19 Nov 1978 05:00:00 GMT
+    Last-Modified: Sun, 14 Jul 2024 02:48:40 GMT
+    X-Generator: Drupal 10 (https://www.drupal.org)
+    Content-Length: 55851
+    X-Drupal-Cache: HIT
+    Access-Control-Allow-Origin: *
+    Vary: Accept-Encoding
+    Content-Type: text/html; charset=UTF-8
+    Set-Cookie: BIGipServerpool-arlv-production.cegedim.cloud-TCP80=!Ug7MMS0iq5vSxVVWDPlD0yXzT0UGhkqXNvsovbJdz0htVRvdroQP6Q4iNlm9SepZk7X/NiujPisYW9HXs1aRbuKlrk4=; path=/; Httponly; Secure
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="fr" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/
   HTTPOptions: 
-    HTTP/1.0 403 Forbidden
+    HTTP/1.0 200 OK
+    Date: Wed, 17 Jul 2024 15:14:45 GMT
+    X-Content-Type-Options: nosniff
+    Upgrade: h2,h2c
     Connection: close
-    Content-Length: 9
-    ERROR
-  RTSPRequest, SIPOptions: 
-    HTTP/1.0 400 Bad Request
-    Connection: close
-    Content-Length: 9
-    ERROR</pre>
+    Allow: GET, POST
+    Cache-Control: must-revalidate, no-cache, private
+    Content-language: fr
+    X-Content-Type-Options: nosniff
+    X-Frame-Options: SAMEORIGIN
+    expires: -1
+    X-Generator: Drupal 10 (https://www.drupal.org)
+    Content-Length: 0
+    Vary: Access-Control-Request-Method,Accept-Encoding
+    Access-Control-Allow-Origin: *
+    pragma: no-cache
+    Content-Type: text/html; charset=UTF-8
+    Set-Cookie: BIGipServerpool-arlv-production.cegedim.cloud-TCP80=!bnuS2e9iVaFRzpRWDPlD0yXzT0UGhgBGjuAYsazhmxCtPPiOG681J+GNZ5F14mNii+z4Btc+tNesqDGf8N8S/cajRGI=; path=/; Httponly; Secure
+    Strict-Transport-Security: max-age=31536000; includeSubDomains</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -175,17 +218,17 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>185.194.82.16 - arretonslesviolences.gouv.fr</td>
+<td>185.194.82.152 - arretonslesviolences.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
-<td>http-proxy</td>
-<td>F5 BIG-IP load balancer http proxy</td>
+<td>http</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>185.194.82.16 - arretonslesviolences.gouv.fr</td>
+<td>185.194.82.152 - arretonslesviolences.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
