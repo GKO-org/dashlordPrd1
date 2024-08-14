@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "france-services.gouv.fr/45.223.60.83",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "69 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (41)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "france-services.gouv.fr/45.223.60.83",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-09-24 23:59"
           }
 ,         {
@@ -1439,8 +1439,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "france-services.gouv.fr/45.223.153.83",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "69 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (41)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1453,7 +1453,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "france-services.gouv.fr/45.223.153.83",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-09-24 23:59"
           }
 ,         {
