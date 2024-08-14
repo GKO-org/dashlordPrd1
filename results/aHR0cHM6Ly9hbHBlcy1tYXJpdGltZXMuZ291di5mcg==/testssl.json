@@ -338,8 +338,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "75 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (47)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -352,7 +352,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-09-30 21:59"
           }
 ,         {
@@ -500,7 +500,7 @@
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721227871"
+              "finding"      : "1723639940"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -1063,6 +1063,6 @@
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "93"
+              "finding"      : "56"
           }
 ]
