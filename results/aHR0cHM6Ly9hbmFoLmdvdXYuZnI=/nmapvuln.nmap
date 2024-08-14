@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Jul 17 14:57:19 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln anah.gouv.fr
+# Nmap 7.92 scan initiated Wed Aug 14 12:58:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln anah.gouv.fr
 Nmap scan report for anah.gouv.fr (31.193.53.253)
 Host is up (0.11s latency).
 Not shown: 998 filtered tcp ports (no-response)
@@ -29,7 +29,7 @@ PORT    STATE SERVICE   VERSION
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Wed, 17 Jul 2024 14:57:46 GMT
+|     date: Wed, 14 Aug 2024 12:59:03 GMT
 |     server: Apache
 |     content-length: 196
 |     content-type: text/html; charset=iso-8859-1
@@ -48,7 +48,7 @@ PORT    STATE SERVICE   VERSION
 |     </body></html>
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     date: Wed, 17 Jul 2024 14:57:45 GMT
+|     date: Wed, 14 Aug 2024 12:59:02 GMT
 |     server: Apache
 |     upgrade: h2
 |     connection: Upgrade
@@ -74,11 +74,11 @@ PORT    STATE SERVICE   VERSION
 |     <link rel="stylesheet" href="assets/styles.b435e6387cdd17c0.css" media="all" onload="t
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     date: Wed, 17 Jul 2024 14:57:46 GMT
+|     date: Wed, 14 Aug 2024 12:59:02 GMT
 |     server: Apache
 |     upgrade: h2
 |     connection: Upgrade
-|     allow: GET,POST,OPTIONS,HEAD
+|     allow: OPTIONS,HEAD,GET,POST
 |     content-length: 0
 |     content-type: text/html
 |     strict-transport-security: max-age=16000000;includeSubDomains;
@@ -88,7 +88,7 @@ PORT    STATE SERVICE   VERSION
 |_    x-xss-protection: 1 ;mode=block
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=7/17%Time=6697DBE3%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=8/14%Time=66BCAA0F%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,6A,"HTTP/1\.1\x20302\x20Found\r\ncontent-length:\x200\r\nlo
 SF:cation:\x20https:///\r\ncache-control:\x20no-cache\r\nconnection:\x20cl
 SF:ose\r\n\r\n")%r(HTTPOptions,6A,"HTTP/1\.1\x20302\x20Found\r\ncontent-le
@@ -120,9 +120,9 @@ SF:ad\x20request\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/ht
 SF:ml\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x
 SF:20sent\x20an\x20invalid\x20request\.\n</body></html>\n\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=7/17%Time=6697DBE9%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,2025,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Wed,\x2017\
-SF:x20Jul\x202024\x2014:57:45\x20GMT\r\nserver:\x20Apache\r\nupgrade:\x20h
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=8/14%Time=66BCAA16%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,2025,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Wed,\x2014\
+SF:x20Aug\x202024\x2012:59:02\x20GMT\r\nserver:\x20Apache\r\nupgrade:\x20h
 SF:2\r\nconnection:\x20Upgrade\r\nlast-modified:\x20Thu,\x2006\x20Jun\x202
 SF:024\x2012:30:10\x20GMT\r\netag:\x20\"126de-61a37d80846cb\"\r\naccept-ra
 SF:nges:\x20bytes\r\ncontent-length:\x2075486\r\nvary:\x20Accept-Encoding\
@@ -138,15 +138,15 @@ SF:link\x20rel=\"icon\"\x20type=\"image/svg\"\x20href=\"https://agrement\.
 SF:anah\.gouv\.fr/assets/logos/logo-mar\.svg\">\r\n\x20\x20\x20<style></st
 SF:yle>\r\n\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"assets/styles
 SF:\.b435e6387cdd17c0\.css\"\x20media=\"all\"\x20onload=\"t")%r(HTTPOption
-SF:s,180,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Wed,\x2017\x20Jul\x202024\x20
-SF:14:57:46\x20GMT\r\nserver:\x20Apache\r\nupgrade:\x20h2\r\nconnection:\x
-SF:20Upgrade\r\nallow:\x20GET,POST,OPTIONS,HEAD\r\ncontent-length:\x200\r\
+SF:s,180,"HTTP/1\.1\x20200\x20OK\r\ndate:\x20Wed,\x2014\x20Aug\x202024\x20
+SF:12:59:02\x20GMT\r\nserver:\x20Apache\r\nupgrade:\x20h2\r\nconnection:\x
+SF:20Upgrade\r\nallow:\x20OPTIONS,HEAD,GET,POST\r\ncontent-length:\x200\r\
 SF:ncontent-type:\x20text/html\r\nstrict-transport-security:\x20max-age=16
 SF:000000;includeSubDomains;\r\nx-frame-options:\x20SAMEORIGIN\r\nx-conten
 SF:t-type-options:\x20nosniff\r\nreferrer-policy:\x20no-referrer-when-down
 SF:grade\r\nx-xss-protection:\x201\x20;mode=block\r\n\r\n")%r(FourOhFourRe
-SF:quest,234,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Wed,\x2017\x20J
-SF:ul\x202024\x2014:57:46\x20GMT\r\nserver:\x20Apache\r\ncontent-length:\x
+SF:quest,234,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Wed,\x2014\x20A
+SF:ug\x202024\x2012:59:03\x20GMT\r\nserver:\x20Apache\r\ncontent-length:\x
 SF:20196\r\ncontent-type:\x20text/html;\x20charset=iso-8859-1\r\nstrict-tr
 SF:ansport-security:\x20max-age=16000000;includeSubDomains;\r\nx-frame-opt
 SF:ions:\x20SAMEORIGIN\r\nx-content-type-options:\x20nosniff\r\nreferrer-p
@@ -158,4 +158,4 @@ SF:ed\x20URL\x20was\x20not\x20found\x20on\x20this\x20server\.</p>\n</body>
 SF:</html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Jul 17 14:58:05 2024 -- 1 IP address (1 host up) scanned in 46.13 seconds
+# Nmap done at Wed Aug 14 12:59:21 2024 -- 1 IP address (1 host up) scanned in 53.66 seconds
