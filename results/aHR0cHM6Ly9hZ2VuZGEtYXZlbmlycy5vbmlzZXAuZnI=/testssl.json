@@ -346,7 +346,7 @@
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "323 >= 60 days"
+              "finding"      : "295 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -598,7 +598,7 @@
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721226989"
+              "finding"      : "1723639182"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1203,6 +1203,6 @@
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "108"
+              "finding"      : "109"
           }
 ]
