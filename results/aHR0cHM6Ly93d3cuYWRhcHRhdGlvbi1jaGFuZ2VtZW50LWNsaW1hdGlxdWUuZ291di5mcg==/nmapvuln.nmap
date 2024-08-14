@@ -1,10 +1,10 @@
-# Nmap 7.92 scan initiated Wed Jul 17 14:27:11 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.adaptation-changement-climatique.gouv.fr
+# Nmap 7.92 scan initiated Wed Aug 14 12:30:35 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.adaptation-changement-climatique.gouv.fr
 Nmap scan report for www.adaptation-changement-climatique.gouv.fr (192.93.225.50)
-Host is up (0.15s latency).
+Host is up (0.11s latency).
 Not shown: 998 closed tcp ports (reset)
 PORT    STATE SERVICE  VERSION
 80/tcp  open  http     nginx
 443/tcp open  ssl/http nginx
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Jul 17 14:27:29 2024 -- 1 IP address (1 host up) scanned in 18.59 seconds
+# Nmap done at Wed Aug 14 12:30:51 2024 -- 1 IP address (1 host up) scanned in 16.59 seconds
