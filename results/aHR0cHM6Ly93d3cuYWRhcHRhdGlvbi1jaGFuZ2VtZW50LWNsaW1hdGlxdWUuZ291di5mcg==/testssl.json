@@ -290,7 +290,7 @@
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "047FC43A9DBB3FB474C650BC34BD7EFFCB0B"
+              "finding"      : "04DA3E63DC0F89252AFD2718C27FFB0BBC60"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -304,21 +304,21 @@
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3BA03C49FC2B4264EC546561027EFBB77981CDAD"
+              "finding"      : "B4786BE21D0CBFC7A862ADF0348AA56494F5E5E5"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "955BAE517EC68FE4D5B94CAFC6296DFAB322769EB722E8D8EF6619BFE955E1C4"
+              "finding"      : "81030ADB009E04BAF88200A434C52D298AAD276BD0C8D07194D399A35DDEA1ED"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -367,21 +367,21 @@
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "49 >= 30 days"
+              "finding"      : "78 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-05 03:56"
+              "finding"      : "2024-09-03 04:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-10-03 03:56"
+              "finding"      : "2024-12-02 04:00"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -528,7 +528,7 @@
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723638563"
+              "finding"      : "1726316870"
           }
 ,         {
               "id"           : "HSTS",
@@ -715,7 +715,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=955BAE517EC68FE4D5B94CAFC6296DFAB322769EB722E8D8EF6619BFE955E1C4"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=81030ADB009E04BAF88200A434C52D298AAD276BD0C8D07194D399A35DDEA1ED"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1121,6 +1121,6 @@
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "106"
+              "finding"      : "105"
           }
 ]
