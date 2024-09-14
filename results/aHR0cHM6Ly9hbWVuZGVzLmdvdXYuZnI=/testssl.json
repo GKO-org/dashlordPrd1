@@ -102,18 +102,3 @@
               "cwe"          : "CWE-310",
               "finding"      : "not offered"
           }
-,         {
-              "id"           : "cipherlist_OBSOLETED",
-              "ip"           : "amendes.gouv.fr/185.8.53.118",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cwe"          : "CWE-310",
-              "finding"      : "not offered"
-          }
-,         {
-              "id"           : "cipherlist_STRONG_NOFS",
-              "ip"           : "amendes.gouv.fr/185.8.53.118",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not offered"
-          }

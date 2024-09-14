@@ -13,5 +13,3 @@
 "cipherlist_EXPORT","amendes.gouv.fr/185.8.53.118","443","OK","not offered","","CWE-327"
 "cipherlist_LOW","amendes.gouv.fr/185.8.53.118","443","OK","not offered","","CWE-327"
 "cipherlist_3DES_IDEA","amendes.gouv.fr/185.8.53.118","443","INFO","not offered","","CWE-310"
-"cipherlist_OBSOLETED","amendes.gouv.fr/185.8.53.118","443","INFO","not offered","","CWE-310"
-"cipherlist_STRONG_NOFS","amendes.gouv.fr/185.8.53.118","443","INFO","not offered","",""
