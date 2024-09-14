@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ants.gouv.fr</pre>
-<p class="lead">Wed Aug 14 13:04:46 2024 – Wed Aug 14 13:05:23 2024<br>1 hosts scanned.
+<p class="lead">Sat Sep 14 13:06:40 2024 – Sat Sep 14 13:07:12 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -151,7 +151,7 @@
   FourOhFourRequest: 
     HTTP/1.1 301 Moved Permanently
     Server: rdwr
-    Date: Wed, 14 Aug 2024 13:04:57 GMT
+    Date: Sat, 14 Sep 2024 13:06:50 GMT
     Content-Type: text/html
     Content-Length: 161
     Connection: close
@@ -166,7 +166,7 @@
   GetRequest, HTTPOptions: 
     HTTP/1.1 301 Moved Permanently
     Server: rdwr
-    Date: Wed, 14 Aug 2024 13:04:57 GMT
+    Date: Sat, 14 Sep 2024 13:06:49 GMT
     Content-Type: text/html
     Content-Length: 161
     Connection: close
@@ -181,7 +181,7 @@
   RTSPRequest, X11Probe: 
     HTTP/1.1 400 Bad Request
     Server: rdwr
-    Date: Wed, 14 Aug 2024 13:04:57 GMT
+    Date: Sat, 14 Sep 2024 13:06:50 GMT
     Content-Type: text/html
     Content-Length: 149
     Connection: close
@@ -221,44 +221,37 @@
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>hnap-info</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
+<h5>http-trane-info</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
+<h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest: 
     HTTP/1.1 200 OK
     Content-Type: text/html; charset=utf-8
-    Content-Length: 5809667
     Connection: close
+    Set-Cookie: __uzma=535f7b2c-2903-41fb-b559-c2431ea3bc41; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmb=1726319215; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzme=0253; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmc=770891085231; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmd=1726319215; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
     X-Frame-Options: SAMEORIGIN
-    Content-Security-Policy: default-src 'self';style-src 'self' 'unsafe-inline';script-src 'self' https://tag.aticdn.net https://*.ants.gouv.fr https://gva.et-gv.fr 'nonce-eda62d54-9fd5-4163-b95e-d07c904964d2';frame-src 'self' https://www.youtube.com/ https://www.dailymotion.com/;connect-src 'self' https://geo.api.gouv.fr https://*.xiti.com https://*.ants.gouv.fr;font-src 'self' https://fonts.gstatic.com data:;img-src 'self' https: data:;object-src 'none';base-uri 'self';form-action 'self'
-    Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
-    X-XSS-Protection: 0
-    X-Content-Type-Options: nosniff
-    Referrer-Policy: no-referrer
-    Permissions-Policy: geolocation=(self), autoplay=(), camera=(), fullscreen=(), microphone=(), payment=()
-    ETag: W/"58a60
+    Content-Security-Policy: default-src 'self';style-src 'self' 'unsafe-inline' https://genii-script.tolk.ai https://fonts.googleapis.com;script-src 'self' https://tag.aticdn.net ht
   HTTPOptions: 
     HTTP/1.1 303 Found
     Content-Type: text/html
-    Content-Length: 650
     Connection: close
+    Set-Cookie: __uzma=567b9a3e-e850-424f-9a59-bae643ec1f74; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmb=1726319217; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzme=1055; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmc=191581023518; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmd=1726319217; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
     Cache-Control: no-cache, private, no-store, must-revalidate
-    Location: https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1079918473
+    Location: https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1060177277
     &lt;html&gt;
     &lt;head&gt;
-    &lt;title&gt;Security Page redirect&lt;/title&gt;
-    &lt;meta http-equiv="refresh" content="3;url=https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1079918473"&gt;
-    &lt;script type="text/javascript"&gt;
-    function GoSecure() { location.href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1079918473";}
-    function SetDelay() { setTimeout("GoSecure();",2000);}
-    &lt;/script&gt;
-    &lt;/head&gt;
-    &lt;body onLoad="SetDelay();"&gt;
-    align="center"&gt;Click &lt;a href="https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1079918473"&gt;Here&lt;/a&gt; to continue.&lt;/h2&gt;
-    &lt;/body</pre>
-<h5>http-trane-info</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
-<h5>hnap-info</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
+    &lt;title&gt;Security Page redirect&lt;</pre>
 </td></tr>
 </tbody>
 </table></div>
