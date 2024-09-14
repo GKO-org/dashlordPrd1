@@ -262,7 +262,7 @@
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "EC2F4F7A64E3321EB1D13F317049923C"
+              "finding"      : "BC6031A0D12564F5FB6EC809CB159C77"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "C2FEFEC760F8CACDA47A46FD0CA01CE611E0AFCE"
+              "finding"      : "ED31A0A41FEB341FA0A74C42180CE5A4899F05AD"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DAFE8108D1E2137A2BDF129B9C079C942B9B945D343613FCFE5703AFEC452ABC"
+              "finding"      : "1B7DDD5B5932038FFF5E366B63F98ACBEA2B2EF6C8B53007EB118D85470E1953"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIIhTCCBm2gAwIBAgIRALxgMaDRJWT1+27ICcsVnHcwDQYJKoZIhvcNAQELBQAwfTELMAkGA1UEBhMCRlIxEjAQBgNVBAoMCURISU1ZT1RJUzEcMBoGA1UECwwTMDAwMiA0ODE0NjMwODEwMDAzNjEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxHTAbBgNVBAMMFENlcnRpZ25hIFNlcnZpY2VzIENBMB4XDTI0MDkwMjIyMDAwMFoXDTI1MDkwMjIxNTk1OVowgYwxCzAJBgNVBAYTAkZSMQ4wDAYDVQQHDAVQQVJJUzEyMDAGA1UECgwpTUlOSVNURVJFIERFIEwnSU5URVJJRVVSIEVUIERFUyBPVVRSRS1NRVIxJDAiBgNVBAMMG3d3dy5hbHBlcy1tYXJpdGltZXMuZ291di5mcjETMBEGA1UEBRMKUzMyMDU0MTUyMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKH6Bd4xVT4oeQajkSpMVGRUc2ttpIt6uexQFU6S3n5cEQNbuzHbHpOsaQUGRyXjrPUH2B91ZElUTpHe2nKm08VbBQw4H5IfCYPYzkzeXYsMJWNTXu5tK80mJjPnEhM3DLcP7oarhkiKEAdYdxOLjELyWgKygVRDPIxQ4Yq9Tjdi46T5YiODzl0ulwIiCMRazmd/WvT77aqh3t/lVjzj+M15z30yB3JioqAlEBbGfW0Fc6Fv1bG8+Ee89aQvpi+MjQYsHT3g8sHP4ffYCkboJGuDPXGxJEPQfeXwwAe9XVzi9gzVpYoP2PMelzXBNNJuMvTp6n8XlDza1odEzibe9UsCAwEAAaOCA+4wggPqMIHkBggrBgEFBQcBAQSB1zCB1DA4BggrBgEFBQcwAoYsaHR0cDovL2F1dG9yaXRlLmRoaW15b3Rpcy5jb20vc2VydmljZXNjYS5kZXIwNgYIKwYBBQUHMAKGKmh0dHA6Ly9hdXRvcml0ZS5jZXJ0aWduYS5mci9zZXJ2aWNlc2NhLmRlcjAuBggrBgEFBQcwAYYiaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5jZXJ0aWduYS5mcjAwBggrBgEFBQcwAYYkaHR0cDovL3NlcnZpY2VzY2Eub2NzcC5kaGlteW90aXMuY29tMB8GA1UdIwQYMBaAFKzsho9LNxy4fxcbGdCu6E7jNFwSMAwGA1UdEwEB/wQCMAAwYQYDVR0gBFowWDAIBgZngQwBAgIwTAYLKoF6AYExAgUBAQEwPTA7BggrBgEFBQcCARYvaHR0cHM6Ly93d3cuY2VydGlnbmEuY29tL2F1dG9yaXRlLWNlcnRpZmljYXRpb24wZQYDVR0fBF4wXDAtoCugKYYnaHR0cDovL2NybC5kaGlteW90aXMuY29tL3NlcnZpY2VzY2EuY3JsMCugKaAnhiVodHRwOi8vY3JsLmNlcnRpZ25hLmZyL3NlcnZpY2VzY2EuY3JsMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIFoDA/BgNVHREEODA2ghdhbHBlcy1tYXJpdGltZXMuZ291di5mcoIbd3d3LmFscGVzLW1hcml0aW1lcy5nb3V2LmZyMB0GA1UdDgQWBBTlnRPOhGJfaNLXGfy0Dsqj71APrzCCAYEGCisGAQQB1nkCBAIEggFxBIIBbQFrAHcADeHyMCvTDcFAYhIJ6lUu/Ed0fLHX6TDvDkIetH5OqjQAAAGRtsdXAgAABAMASDBGAiEAqenBJmy6qa2rdCfZ11c6wTlVXViUnqCWL3/0qpTfJPwCIQDgNoFaJ3+88fUvJfuwDBtJQ35PLuAtPVxIGvlGb+leiwB3AN3cyjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABkbbHVYwAAAQDAEgwRgIhAIt0ubNzrULNuJT7brVBEu8q0WSJFVwcSpr+Nlppy/XxAiEA1S08uESNvHNsn7kch1ZUQLXuaCs9G8BHPSg+S+NlJMEAdwDm0jFjQHeMwRBBBtdxuc7B0kD2loSG+7qHMh39HjeOUAAAAZG2x1f2AAAEAwBIMEYCIQDRHvazOb+QXxE5FmRSfyXmkmfC/WsAVXKfMWhY80fxAgIhAJ7Z1VMWbvlFhBTxTKf4Fly77YS31BsQW2vdjKsiCtPKMA0GCSqGSIb3DQEBCwUAA4ICAQCQ7Pv+Qy8HDZll/pFHmqHsBSTXAH1AEC9vXlh9lAWSMhsqL5Qv67AVDtQ+3MFFdMo+oJgpJnLGjvWFUKLWeAUOtTLRsAOFMT5VWXVSIcC0uf98cSiRS2s/h+VTDWE0TQrptKHKeGGKgVJZAhVkApd9qj9eGlKJvHQre6AKNVu+lw3myCmBITcfFIs5zgFlNcDBNW1T9QNUW3UvtH17DBIIVJTaHUNf0Oz5cE6/sQ8VaT/C/p0J0riCT5TghXzdQB5jX5u/JZpNHDNMfI9L/1vsk/hEisa91hQb/6IfuT4IbLr5Xc9xMDMkgvhkIqKhcFtvaLJPPobe7+LOflqfbwosQMKJpDLejVzpknk4U0mGB7hzpXEZQugGKYPqxD2qQPTT5z1uivVx/f7ubi56A9ix4Epv4bTlRvBrxMG5Yr5XXZDFcUf8zxc0VZZN82zx3GbUOM8HEFMUwBITZBTNsQsl20oHnQGY+HmYUBwQe8PKxzZUsccHz9ppuOW9ldOgaKBlfbrwgZqr5Ymre9G4+xP5d3SgF8O7N05nERUtDeF13elU4lipTAx+QSJNdmSnTW6SVaI2cACfCDUiCMf6ZLuzrMa6emktma6S+U5D2JceXW+FOrOnBFf4rVwlshdACuhdxMPde/tZjK8fg9+kKAo8b0i4vFug6+p/2ajX5PZbug==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.alpes-maritimes.gouv.fr alpes-maritimes.gouv.fr"
+              "finding"      : "alpes-maritimes.gouv.fr www.alpes-maritimes.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -338,22 +338,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (47)"
+              "severity"     : "OK",
+              "finding"      : "353 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-03-22 23:00"
+              "finding"      : "2024-09-02 22:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-09-30 21:59"
+              "severity"     : "OK",
+              "finding"      : "2025-09-02 21:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -374,14 +374,14 @@
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://crl.certigna.fr/servicesca.crl http://crl.dhimyotis.com/servicesca.crl"
+              "finding"      : "http://crl.dhimyotis.com/servicesca.crl http://crl.certigna.fr/servicesca.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://servicesca.ocsp.dhimyotis.com http://servicesca.ocsp.certigna.fr"
+              "finding"      : "http://servicesca.ocsp.certigna.fr http://servicesca.ocsp.dhimyotis.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -500,7 +500,7 @@
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723639940"
+              "finding"      : "1726318375"
           }
 ,         {
               "id"           : "HTTP_headerAge",
@@ -680,7 +680,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=DAFE8108D1E2137A2BDF129B9C079C942B9B945D343613FCFE5703AFEC452ABC"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=1B7DDD5B5932038FFF5E366B63F98ACBEA2B2EF6C8B53007EB118D85470E1953"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1063,6 +1063,6 @@
               "ip"           : "alpes-maritimes.gouv.fr/77.159.252.140",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "98"
           }
 ]
