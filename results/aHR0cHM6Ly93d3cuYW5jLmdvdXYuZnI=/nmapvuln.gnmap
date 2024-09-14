@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Aug 14 12:57:53 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.anc.gouv.fr
+# Nmap 7.92 scan initiated Sat Sep 14 12:59:33 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.anc.gouv.fr
 Host: 193.17.19.48 ()	Status: Up
-Host: 193.17.19.48 ()	Ports: 80/open/tcp//http//Apache httpd/, 113/closed/tcp//ident///, 443/open/tcp//ssl|tcpwrapped///	Ignored State: filtered (997)
-# Nmap done at Wed Aug 14 12:58:09 2024 -- 1 IP address (1 host up) scanned in 16.57 seconds
+Host: 193.17.19.48 ()	Ports: 80/open/tcp//http//Apache httpd/, 113/closed/tcp//ident///, 280/closed/tcp//http-mgmt///, 443/open/tcp//ssl|http//Apache httpd/, 801/closed/tcp//device///, 1034/closed/tcp//zincite-a///, 1076/closed/tcp//sns_credit///, 2399/closed/tcp//fmpro-fdal///, 2717/closed/tcp//pn-requester///, 4224/closed/tcp//xtell///, 5003/closed/tcp//filemaker///, 8291/closed/tcp//unknown///	Ignored State: filtered (988)
+# Nmap done at Sat Sep 14 13:08:18 2024 -- 1 IP address (1 host up) scanned in 525.46 seconds
