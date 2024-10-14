@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ants.gouv.fr</pre>
-<p class="lead">Sat Sep 14 13:06:40 2024 – Sat Sep 14 13:07:12 2024<br>1 hosts scanned.
+<p class="lead">Mon Oct 14 13:11:28 2024 – Mon Oct 14 13:12:02 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -151,7 +151,7 @@
   FourOhFourRequest: 
     HTTP/1.1 301 Moved Permanently
     Server: rdwr
-    Date: Sat, 14 Sep 2024 13:06:50 GMT
+    Date: Mon, 14 Oct 2024 13:11:39 GMT
     Content-Type: text/html
     Content-Length: 161
     Connection: close
@@ -166,7 +166,7 @@
   GetRequest, HTTPOptions: 
     HTTP/1.1 301 Moved Permanently
     Server: rdwr
-    Date: Sat, 14 Sep 2024 13:06:49 GMT
+    Date: Mon, 14 Oct 2024 13:11:38 GMT
     Content-Type: text/html
     Content-Length: 161
     Connection: close
@@ -181,7 +181,7 @@
   RTSPRequest, X11Probe: 
     HTTP/1.1 400 Bad Request
     Server: rdwr
-    Date: Sat, 14 Sep 2024 13:06:50 GMT
+    Date: Mon, 14 Oct 2024 13:11:39 GMT
     Content-Type: text/html
     Content-Length: 149
     Connection: close
@@ -216,42 +216,39 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product"></td>
+<td title="Product">rdwr</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>hnap-info</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
-<h5>http-trane-info</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">ERROR: Script execution failed (use -d to debug)</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">rdwr</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest: 
-    HTTP/1.1 200 OK
-    Content-Type: text/html; charset=utf-8
-    Connection: close
-    Set-Cookie: __uzma=535f7b2c-2903-41fb-b559-c2431ea3bc41; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
-    Set-Cookie: __uzmb=1726319215; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
-    Set-Cookie: __uzme=0253; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
-    Set-Cookie: __uzmc=770891085231; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
-    Set-Cookie: __uzmd=1726319215; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:55 GMT ; Max-Age=15724800; SameSite=Lax
-    X-Frame-Options: SAMEORIGIN
-    Content-Security-Policy: default-src 'self';style-src 'self' 'unsafe-inline' https://genii-script.tolk.ai https://fonts.googleapis.com;script-src 'self' https://tag.aticdn.net ht
-  HTTPOptions: 
-    HTTP/1.1 303 Found
+    HTTP/1.1 302 Moved Temporarily
+    Server: rdwr
+    Date: Mon, 14 Oct 2024 13:11:45 GMT
     Content-Type: text/html
     Connection: close
-    Set-Cookie: __uzma=567b9a3e-e850-424f-9a59-bae643ec1f74; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
-    Set-Cookie: __uzmb=1726319217; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
-    Set-Cookie: __uzme=1055; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
-    Set-Cookie: __uzmc=191581023518; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
-    Set-Cookie: __uzmd=1726319217; HttpOnly; path=/; Expires=Sat, 15-Mar-25 13:06:57 GMT ; Max-Age=15724800; SameSite=Lax
-    Cache-Control: no-cache, private, no-store, must-revalidate
-    Location: https://csirt.docapost.fr/index.php/Information_de_s%C3%A9curit%C3%A9_ANTS?_event_transid=1060177277
-    &lt;html&gt;
-    &lt;head&gt;
-    &lt;title&gt;Security Page redirect&lt;</pre>
+    Set-Cookie: __uzma=a6d693f1-b4a4-4ca3-a5a1-8dc890a15309; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmb=1728911504; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzme=9649; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmc=698871047634; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmd=1728911504; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmf=7f6000b2fa7704-20ed-46a2-9656-d98f2deda55017289115050030-dc44e3170afce3ee10; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-
+  HTTPOptions: 
+    HTTP/1.1 302 Moved Temporarily
+    Server: rdwr
+    Date: Mon, 14 Oct 2024 13:11:45 GMT
+    Content-Type: text/html
+    Connection: close
+    Set-Cookie: __uzma=d698299b-c920-4095-b34d-3aea2684ffe4; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmb=1728911505; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzme=3791; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmc=322641066708; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmd=1728911505; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
+    Set-Cookie: __uzmf=7f6000f4f0e626-d29f-47b9-bccc-67e771dd59ce17289115054230-d9e36f14af8432ba10; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-</pre>
 </td></tr>
 </tbody>
 </table></div>
@@ -285,7 +282,7 @@
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td></td>
+<td>rdwr</td>
 <td></td>
 <td></td>
 <td></td>
