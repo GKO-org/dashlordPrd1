@@ -276,7 +276,7 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9312E8A71BF6F9859B8B4F9EE5577328"
+              "finding"      : "2C13B9CE7B19540FF1CF6C617666DCDD"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -290,21 +290,21 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "FFB711AFC6CBE46598544E95D161BB56D20F667B"
+              "finding"      : "09648D66BFEEB454871B2D4B07D6FCB5B208F4A9"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "3D60D6FC2AD3ADC2BD37B462B22D990F0BB6901B3C8135B55D2B71F4A8120CE0"
+              "finding"      : "4A15AEC61DB216B134CDC85AEAAD740E245616896953BBFA31208AF9839C221C"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -325,7 +325,7 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "agriculture.gouv.fr photo.agriculture.gouv.fr www.agriculture.gouv.fr www.photo.agriculture.gouv.fr"
+              "finding"      : "agriculture.gouv.fr ministre-en-images.agriculture.gouv.fr photo.agriculture.gouv.fr www.agriculture.gouv.fr www.ministre-en-images.agriculture.gouv.fr www.photo.agriculture.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -352,22 +352,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (20)"
+              "severity"     : "OK",
+              "finding"      : "351 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-10-05 00:00"
+              "finding"      : "2024-09-30 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-10-04 23:59"
+              "severity"     : "OK",
+              "finding"      : "2025-09-30 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -549,21 +549,21 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+119 seconds from localtime"
+              "finding"      : "+205 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726317761"
+              "finding"      : "1728910055"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "120 seconds"
+              "finding"      : "205 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -757,7 +757,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3D60D6FC2AD3ADC2BD37B462B22D990F0BB6901B3C8135B55D2B71F4A8120CE0"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=4A15AEC61DB216B134CDC85AEAAD740E245616896953BBFA31208AF9839C221C"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1147,6 +1147,6 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "187"
+              "finding"      : "189"
           }
 ]
