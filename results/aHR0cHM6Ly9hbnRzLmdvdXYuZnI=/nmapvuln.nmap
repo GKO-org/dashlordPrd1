@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Mon Oct 14 13:11:28 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ants.gouv.fr
+# Nmap 7.92 scan initiated Thu Nov 14 13:12:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ants.gouv.fr
 Nmap scan report for ants.gouv.fr (66.22.33.160)
-Host is up (0.099s latency).
+Host is up (0.15s latency).
 Not shown: 993 closed tcp ports (reset)
 PORT    STATE    SERVICE   VERSION
 20/tcp  filtered ftp-data
@@ -12,7 +12,7 @@ PORT    STATE    SERVICE   VERSION
 |   FourOhFourRequest: 
 |     HTTP/1.1 301 Moved Permanently
 |     Server: rdwr
-|     Date: Mon, 14 Oct 2024 13:11:39 GMT
+|     Date: Thu, 14 Nov 2024 13:13:09 GMT
 |     Content-Type: text/html
 |     Content-Length: 161
 |     Connection: close
@@ -27,7 +27,7 @@ PORT    STATE    SERVICE   VERSION
 |   GetRequest, HTTPOptions: 
 |     HTTP/1.1 301 Moved Permanently
 |     Server: rdwr
-|     Date: Mon, 14 Oct 2024 13:11:38 GMT
+|     Date: Thu, 14 Nov 2024 13:13:08 GMT
 |     Content-Type: text/html
 |     Content-Length: 161
 |     Connection: close
@@ -42,7 +42,7 @@ PORT    STATE    SERVICE   VERSION
 |   RTSPRequest, X11Probe: 
 |     HTTP/1.1 400 Bad Request
 |     Server: rdwr
-|     Date: Mon, 14 Oct 2024 13:11:39 GMT
+|     Date: Thu, 14 Nov 2024 13:13:09 GMT
 |     Content-Type: text/html
 |     Content-Length: 149
 |     Connection: close
@@ -61,56 +61,56 @@ PORT    STATE    SERVICE   VERSION
 |   GetRequest: 
 |     HTTP/1.1 302 Moved Temporarily
 |     Server: rdwr
-|     Date: Mon, 14 Oct 2024 13:11:45 GMT
+|     Date: Thu, 14 Nov 2024 13:13:15 GMT
 |     Content-Type: text/html
 |     Connection: close
-|     Set-Cookie: __uzma=a6d693f1-b4a4-4ca3-a5a1-8dc890a15309; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|     Set-Cookie: __uzmb=1728911504; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|     Set-Cookie: __uzme=9649; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|     Set-Cookie: __uzmc=698871047634; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|     Set-Cookie: __uzmd=1728911504; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|     Set-Cookie: __uzmf=7f6000b2fa7704-20ed-46a2-9656-d98f2deda55017289115050030-dc44e3170afce3ee10; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-
+|     Set-Cookie: __uzma=cd531506-34b1-4ff9-b2c4-b7c3870980a9; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|     Set-Cookie: __uzmb=1731589995; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|     Set-Cookie: __uzme=5814; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|     Set-Cookie: __uzmc=201551042276; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|     Set-Cookie: __uzmd=1731589995; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|     Set-Cookie: __uzmf=7f6000da54a7c4-2aea-4a53-9887-0554bdd3b49217315899950770-6ba95f6d207bfb5010; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-
 |   HTTPOptions: 
 |     HTTP/1.1 302 Moved Temporarily
 |     Server: rdwr
-|     Date: Mon, 14 Oct 2024 13:11:45 GMT
+|     Date: Thu, 14 Nov 2024 13:13:15 GMT
 |     Content-Type: text/html
 |     Connection: close
-|     Set-Cookie: __uzma=d698299b-c920-4095-b34d-3aea2684ffe4; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|     Set-Cookie: __uzmb=1728911505; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|     Set-Cookie: __uzme=3791; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|     Set-Cookie: __uzmc=322641066708; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|     Set-Cookie: __uzmd=1728911505; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-Age=15724800; SameSite=Lax
-|_    Set-Cookie: __uzmf=7f6000f4f0e626-d29f-47b9-bccc-67e771dd59ce17289115054230-d9e36f14af8432ba10; HttpOnly; path=/; Expires=Mon, 14-Apr-25 13:11:45 GMT ; Max-
+|     Set-Cookie: __uzma=f54fa93d-590e-468c-aaa7-0d30a4e5aabb; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|     Set-Cookie: __uzmb=1731589995; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|     Set-Cookie: __uzme=9231; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|     Set-Cookie: __uzmc=840551094730; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|     Set-Cookie: __uzmd=1731589995; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-Age=15724800; SameSite=Lax
+|_    Set-Cookie: __uzmf=7f6000bafdce85-4ae2-4ad4-98d1-101e150cf0e417315899956710-7065a4f319c0576d10; HttpOnly; path=/; Expires=Thu, 15-May-25 13:13:15 GMT ; Max-
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D188A%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735F764%P=x86_64-alpine-linux-musl%
 SF:r(GetRequest,15E,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nServer:\x
-SF:20rdwr\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2013:11:38\x20GMT\r\nCont
+SF:20rdwr\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2013:13:08\x20GMT\r\nCont
 SF:ent-Type:\x20text/html\r\nContent-Length:\x20161\r\nConnection:\x20clos
 SF:e\r\nLocation:\x20https://ants-2\.gouv\.fr:443/\r\n\r\n<html>\r\n<head>
 SF:<title>301\x20Moved\x20Permanently</title></head>\r\n<body>\r\n<center>
 SF:<h1>301\x20Moved\x20Permanently</h1></center>\r\n<hr><center>rdwr</cent
 SF:er>\r\n</body>\r\n</html>\r\n")%r(HTTPOptions,15E,"HTTP/1\.1\x20301\x20
-SF:Moved\x20Permanently\r\nServer:\x20rdwr\r\nDate:\x20Mon,\x2014\x20Oct\x
-SF:202024\x2013:11:38\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Leng
+SF:Moved\x20Permanently\r\nServer:\x20rdwr\r\nDate:\x20Thu,\x2014\x20Nov\x
+SF:202024\x2013:13:08\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Leng
 SF:th:\x20161\r\nConnection:\x20close\r\nLocation:\x20https://ants-2\.gouv
 SF:\.fr:443/\r\n\r\n<html>\r\n<head><title>301\x20Moved\x20Permanently</ti
 SF:tle></head>\r\n<body>\r\n<center><h1>301\x20Moved\x20Permanently</h1></
 SF:center>\r\n<hr><center>rdwr</center>\r\n</body>\r\n</html>\r\n")%r(RTSP
 SF:Request,125,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nServer:\x20rdwr\r\nD
-SF:ate:\x20Mon,\x2014\x20Oct\x202024\x2013:11:39\x20GMT\r\nContent-Type:\x
+SF:ate:\x20Thu,\x2014\x20Nov\x202024\x2013:13:09\x20GMT\r\nContent-Type:\x
 SF:20text/html\r\nContent-Length:\x20149\r\nConnection:\x20close\r\n\r\n<h
 SF:tml>\r\n<head><title>400\x20Bad\x20Request</title></head>\r\n<body>\r\n
 SF:<center><h1>400\x20Bad\x20Request</h1></center>\r\n<hr><center>rdwr</ce
 SF:nter>\r\n</body>\r\n</html>\r\n")%r(X11Probe,125,"HTTP/1\.1\x20400\x20B
-SF:ad\x20Request\r\nServer:\x20rdwr\r\nDate:\x20Mon,\x2014\x20Oct\x202024\
-SF:x2013:11:39\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20
+SF:ad\x20Request\r\nServer:\x20rdwr\r\nDate:\x20Thu,\x2014\x20Nov\x202024\
+SF:x2013:13:09\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x20
 SF:149\r\nConnection:\x20close\r\n\r\n<html>\r\n<head><title>400\x20Bad\x2
 SF:0Request</title></head>\r\n<body>\r\n<center><h1>400\x20Bad\x20Request<
 SF:/h1></center>\r\n<hr><center>rdwr</center>\r\n</body>\r\n</html>\r\n")%
 SF:r(FourOhFourRequest,181,"HTTP/1\.1\x20301\x20Moved\x20Permanently\r\nSe
-SF:rver:\x20rdwr\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2013:11:39\x20GMT\
+SF:rver:\x20rdwr\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2013:13:09\x20GMT\
 SF:r\nContent-Type:\x20text/html\r\nContent-Length:\x20161\r\nConnection:\
 SF:x20close\r\nLocation:\x20https://ants-2\.gouv\.fr:443/nice%20ports%2C/T
 SF:ri%6Eity\.txt%2ebak\r\n\r\n<html>\r\n<head><title>301\x20Moved\x20Perma
@@ -118,40 +118,40 @@ SF:nently</title></head>\r\n<body>\r\n<center><h1>301\x20Moved\x20Permanen
 SF:tly</h1></center>\r\n<hr><center>rdwr</center>\r\n</body>\r\n</html>\r\
 SF:n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D1891%P=x86_64-alpine-linu
-SF:x-musl%r(GetRequest,DCB,"HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nSe
-SF:rver:\x20rdwr\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2013:11:45\x20GMT\
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735F76B%P=x86_64-alpine-linu
+SF:x-musl%r(GetRequest,DCF,"HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nSe
+SF:rver:\x20rdwr\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2013:13:15\x20GMT\
 SF:r\nContent-Type:\x20text/html\r\nConnection:\x20close\r\nSet-Cookie:\x2
-SF:0__uzma=a6d693f1-b4a4-4ca3-a5a1-8dc890a15309;\x20HttpOnly;\x20path=/;\x
-SF:20Expires=Mon,\x2014-Apr-25\x2013:11:45\x20GMT\x20;\x20Max-Age=15724800
-SF:;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzmb=1728911504;\x20HttpOnly;\x20
-SF:path=/;\x20Expires=Mon,\x2014-Apr-25\x2013:11:45\x20GMT\x20;\x20Max-Age
-SF:=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzme=9649;\x20HttpOnly;\
-SF:x20path=/;\x20Expires=Mon,\x2014-Apr-25\x2013:11:45\x20GMT\x20;\x20Max-
-SF:Age=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzmc=698871047634;\x2
-SF:0HttpOnly;\x20path=/;\x20Expires=Mon,\x2014-Apr-25\x2013:11:45\x20GMT\x
-SF:20;\x20Max-Age=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzmd=17289
-SF:11504;\x20HttpOnly;\x20path=/;\x20Expires=Mon,\x2014-Apr-25\x2013:11:45
+SF:0__uzma=cd531506-34b1-4ff9-b2c4-b7c3870980a9;\x20HttpOnly;\x20path=/;\x
+SF:20Expires=Thu,\x2015-May-25\x2013:13:15\x20GMT\x20;\x20Max-Age=15724800
+SF:;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzmb=1731589995;\x20HttpOnly;\x20
+SF:path=/;\x20Expires=Thu,\x2015-May-25\x2013:13:15\x20GMT\x20;\x20Max-Age
+SF:=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzme=5814;\x20HttpOnly;\
+SF:x20path=/;\x20Expires=Thu,\x2015-May-25\x2013:13:15\x20GMT\x20;\x20Max-
+SF:Age=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzmc=201551042276;\x2
+SF:0HttpOnly;\x20path=/;\x20Expires=Thu,\x2015-May-25\x2013:13:15\x20GMT\x
+SF:20;\x20Max-Age=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzmd=17315
+SF:89995;\x20HttpOnly;\x20path=/;\x20Expires=Thu,\x2015-May-25\x2013:13:15
 SF:\x20GMT\x20;\x20Max-Age=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__u
-SF:zmf=7f6000b2fa7704-20ed-46a2-9656-d98f2deda55017289115050030-dc44e3170a
-SF:fce3ee10;\x20HttpOnly;\x20path=/;\x20Expires=Mon,\x2014-Apr-25\x2013:11
-SF::45\x20GMT\x20;\x20Max-")%r(HTTPOptions,DCB,"HTTP/1\.1\x20302\x20Moved\
-SF:x20Temporarily\r\nServer:\x20rdwr\r\nDate:\x20Mon,\x2014\x20Oct\x202024
-SF:\x2013:11:45\x20GMT\r\nContent-Type:\x20text/html\r\nConnection:\x20clo
-SF:se\r\nSet-Cookie:\x20__uzma=d698299b-c920-4095-b34d-3aea2684ffe4;\x20Ht
-SF:tpOnly;\x20path=/;\x20Expires=Mon,\x2014-Apr-25\x2013:11:45\x20GMT\x20;
-SF:\x20Max-Age=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzmb=17289115
-SF:05;\x20HttpOnly;\x20path=/;\x20Expires=Mon,\x2014-Apr-25\x2013:11:45\x2
+SF:zmf=7f6000da54a7c4-2aea-4a53-9887-0554bdd3b49217315899950770-6ba95f6d20
+SF:7bfb5010;\x20HttpOnly;\x20path=/;\x20Expires=Thu,\x2015-May-25\x2013:13
+SF::15\x20GMT\x20;\x20Max-")%r(HTTPOptions,DCF,"HTTP/1\.1\x20302\x20Moved\
+SF:x20Temporarily\r\nServer:\x20rdwr\r\nDate:\x20Thu,\x2014\x20Nov\x202024
+SF:\x2013:13:15\x20GMT\r\nContent-Type:\x20text/html\r\nConnection:\x20clo
+SF:se\r\nSet-Cookie:\x20__uzma=f54fa93d-590e-468c-aaa7-0d30a4e5aabb;\x20Ht
+SF:tpOnly;\x20path=/;\x20Expires=Thu,\x2015-May-25\x2013:13:15\x20GMT\x20;
+SF:\x20Max-Age=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzmb=17315899
+SF:95;\x20HttpOnly;\x20path=/;\x20Expires=Thu,\x2015-May-25\x2013:13:15\x2
 SF:0GMT\x20;\x20Max-Age=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__uzme
-SF:=3791;\x20HttpOnly;\x20path=/;\x20Expires=Mon,\x2014-Apr-25\x2013:11:45
+SF:=9231;\x20HttpOnly;\x20path=/;\x20Expires=Thu,\x2015-May-25\x2013:13:15
 SF:\x20GMT\x20;\x20Max-Age=15724800;\x20SameSite=Lax\r\nSet-Cookie:\x20__u
-SF:zmc=322641066708;\x20HttpOnly;\x20path=/;\x20Expires=Mon,\x2014-Apr-25\
-SF:x2013:11:45\x20GMT\x20;\x20Max-Age=15724800;\x20SameSite=Lax\r\nSet-Coo
-SF:kie:\x20__uzmd=1728911505;\x20HttpOnly;\x20path=/;\x20Expires=Mon,\x201
-SF:4-Apr-25\x2013:11:45\x20GMT\x20;\x20Max-Age=15724800;\x20SameSite=Lax\r
-SF:\nSet-Cookie:\x20__uzmf=7f6000f4f0e626-d29f-47b9-bccc-67e771dd59ce17289
-SF:115054230-d9e36f14af8432ba10;\x20HttpOnly;\x20path=/;\x20Expires=Mon,\x
-SF:2014-Apr-25\x2013:11:45\x20GMT\x20;\x20Max-");
+SF:zmc=840551094730;\x20HttpOnly;\x20path=/;\x20Expires=Thu,\x2015-May-25\
+SF:x2013:13:15\x20GMT\x20;\x20Max-Age=15724800;\x20SameSite=Lax\r\nSet-Coo
+SF:kie:\x20__uzmd=1731589995;\x20HttpOnly;\x20path=/;\x20Expires=Thu,\x201
+SF:5-May-25\x2013:13:15\x20GMT\x20;\x20Max-Age=15724800;\x20SameSite=Lax\r
+SF:\nSet-Cookie:\x20__uzmf=7f6000bafdce85-4ae2-4ad4-98d1-101e150cf0e417315
+SF:899956710-7065a4f319c0576d10;\x20HttpOnly;\x20path=/;\x20Expires=Thu,\x
+SF:2015-May-25\x2013:13:15\x20GMT\x20;\x20Max-");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 13:12:02 2024 -- 1 IP address (1 host up) scanned in 34.16 seconds
+# Nmap done at Thu Nov 14 13:13:38 2024 -- 1 IP address (1 host up) scanned in 42.64 seconds

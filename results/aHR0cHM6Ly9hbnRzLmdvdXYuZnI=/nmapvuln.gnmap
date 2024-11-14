@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Oct 14 13:11:28 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ants.gouv.fr
+# Nmap 7.92 scan initiated Thu Nov 14 13:12:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ants.gouv.fr
 Host: 66.22.33.160 ()	Status: Up
 Host: 66.22.33.160 ()	Ports: 20/filtered/tcp//ftp-data///, 21/filtered/tcp//ftp///, 22/filtered/tcp//ssh///, 80/open/tcp//http//rdwr/, 161/filtered/tcp//snmp///, 179/filtered/tcp//bgp///, 443/open/tcp//ssl|https//rdwr/	Ignored State: closed (993)
-# Nmap done at Mon Oct 14 13:12:02 2024 -- 1 IP address (1 host up) scanned in 34.16 seconds
+# Nmap done at Thu Nov 14 13:13:38 2024 -- 1 IP address (1 host up) scanned in 42.64 seconds
