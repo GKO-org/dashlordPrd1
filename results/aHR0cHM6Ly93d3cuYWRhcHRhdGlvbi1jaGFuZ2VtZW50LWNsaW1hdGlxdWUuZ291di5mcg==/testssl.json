@@ -366,8 +366,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "48 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (17)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -380,7 +380,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-12-02 04:00"
           }
 ,         {
@@ -521,14 +521,14 @@
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728909132"
+              "finding"      : "1731587539"
           }
 ,         {
               "id"           : "HSTS",
@@ -1121,6 +1121,6 @@
               "ip"           : "www.adaptation-changement-climatique.gouv.fr/192.93.225.50",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "86"
+              "finding"      : "108"
           }
 ]
