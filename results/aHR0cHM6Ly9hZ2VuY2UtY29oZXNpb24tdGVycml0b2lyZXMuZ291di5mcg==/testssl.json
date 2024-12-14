@@ -366,8 +366,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "agence-cohesion-territoires.gouv.fr/217.115.162.32",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (59)"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 30 days (29)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -380,7 +380,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "agence-cohesion-territoires.gouv.fr/217.115.162.32",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "HIGH",
               "finding"      : "2025-01-12 23:59"
           }
 ,         {
@@ -521,14 +521,14 @@
               "ip"           : "agence-cohesion-territoires.gouv.fr/217.115.162.32",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "agence-cohesion-territoires.gouv.fr/217.115.162.32",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731587851"
+              "finding"      : "1734179738"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1126,6 +1126,6 @@
               "ip"           : "agence-cohesion-territoires.gouv.fr/217.115.162.32",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "107"
+              "finding"      : "63"
           }
 ]
