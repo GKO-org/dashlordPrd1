@@ -1,23 +1,29 @@
-# Nmap 7.92 scan initiated Sat Dec 14 13:38:13 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln associations.gouv.fr
+# Nmap 7.92 scan initiated Tue Jan 14 13:24:04 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln associations.gouv.fr
 Nmap scan report for associations.gouv.fr (185.194.83.17)
-Host is up (0.14s latency).
+Host is up (0.081s latency).
 Not shown: 997 filtered tcp ports (no-response)
-PORT    STATE  SERVICE    VERSION
-80/tcp  open   http-proxy F5 BIG-IP load balancer http proxy
+PORT    STATE  SERVICE   VERSION
+80/tcp  open   http      BigIP
 |_http-server-header: BigIP
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 302 Moved Temporarily
+|     Location: https:///
+|     Server: BigIP
+|     Connection: close
+|_    Content-Length: 0
 113/tcp closed ident
 443/tcp open   ssl/https
-|_http-trane-info: Problem with XML parsing of /evox/about
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 200 OK
-|     Date: Sat, 14 Dec 2024 13:38:35 GMT
+|     Date: Tue, 14 Jan 2025 13:24:23 GMT
 |     X-Spip-Cache: 86400
-|     Last-Modified: Sat, 14 Dec 2024 13:38:35 GMT
+|     Last-Modified: Tue, 14 Jan 2025 13:24:23 GMT
 |     Vary: Accept-Encoding
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-djepva-association2.cegedim.cloud-HTTP=!HBSQVhJMvTgODuhEb0fFdwp3a2v5lvQRXQEHR/9aJ47CwAJUH45xU9yVOE0NmLUBa8nmypJHhzRRheGz/Dt83CeJEzI=; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-djepva-association2.cegedim.cloud-HTTP=!qd8G4MKbwNdm6e9Eb0fFdwp3a2v5lksbtzaisUzaxSkQg/hqOyIGCgAV6mtz78lqqaksDL9TV0x79Ywcwfl0jvvkGf0=; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE HTML>
 |     <html class="page_sommaire sans_composition ltr fr no-js" lang="fr" dir="ltr">
@@ -29,13 +35,13 @@ PORT    STATE  SERVICE    VERSION
 |     <meta name="description
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
-|     Date: Sat, 14 Dec 2024 13:38:36 GMT
+|     Date: Tue, 14 Jan 2025 13:24:24 GMT
 |     X-Spip-Cache: 86400
-|     Last-Modified: Sat, 14 Dec 2024 13:38:36 GMT
+|     Last-Modified: Tue, 14 Jan 2025 13:24:24 GMT
 |     Vary: Accept-Encoding
 |     Connection: close
 |     Content-Type: text/html; charset=utf-8
-|     Set-Cookie: BIGipServerpool-djepva-association2.cegedim.cloud-HTTP=!nLQBZLCs2OjWNX5Eb0fFdwp3a2v5llxNeDrbxParwea1ZtMSsBqRgPeSPYB2Ov0sQSMwIj90LgRHRYblbHExen4TisM=; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerpool-djepva-association2.cegedim.cloud-HTTP=!QIJ0yNgHPiycmsxEb0fFdwp3a2v5li3zrb1t+eK0miccojazwQMEnNOYx4o2O53T11YhX5NCVC2nB3kORBtTJRraW1s=; path=/; Httponly; Secure
 |     Strict-Transport-Security: max-age=31536000; includeSubDomains
 |     <!DOCTYPE HTML>
 |     <html class="page_sommaire sans_composition ltr fr no-js" lang="fr" dir="ltr">
@@ -45,31 +51,38 @@ PORT    STATE  SERVICE    VERSION
 |     <title>Associations.gouv.fr | Cr
 |     velopper son association</title>
 |_    <meta name="description
-1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/14%Time=675D8A5B%P=x86_64-alpine-linu
-SF:x-musl%r(GetRequest,11D4,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sat,\x2014
-SF:\x20Dec\x202024\x2013:38:35\x20GMT\r\nX-Spip-Cache:\x2086400\r\nLast-Mo
-SF:dified:\x20Sat,\x2014\x20Dec\x202024\x2013:38:35\x20GMT\r\nVary:\x20Acc
-SF:ept-Encoding\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20
-SF:charset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-djepva-association2\.ce
-SF:gedim\.cloud-HTTP=!HBSQVhJMvTgODuhEb0fFdwp3a2v5lvQRXQEHR/9aJ47CwAJUH45x
-SF:U9yVOE0NmLUBa8nmypJHhzRRheGz/Dt83CeJEzI=;\x20path=/;\x20Httponly;\x20Se
-SF:cure\r\nStrict-Transport-Security:\x20max-age=31536000;\x20includeSubDo
-SF:mains\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20sans
-SF:_composition\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t
-SF:<head>\n\t\t<script\x20type='text/javascript'>/\*<!\[CDATA\[\*/\(functi
-SF:on\(H\){H\.className=H\.className\.replace\(/\\bno-js\\b/,'js'\)}\)\(do
-SF:cument\.documentElement\);/\*\]\]>\*/</script>\n\t\t\n\t\t<meta\x20http
-SF:-equiv=\"Content-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/
-SF:>\n\n\t\t<title>Associations\.gouv\.fr\x20\|\x20Cr\xc3\xa9er,\x20g\xc3\
-SF:xa9rer\x20et\x20d\xc3\xa9velopper\x20son\x20association</title>\r\n<met
-SF:a\x20name=\"description")%r(HTTPOptions,11D4,"HTTP/1\.1\x20200\x20OK\r\
-SF:nDate:\x20Sat,\x2014\x20Dec\x202024\x2013:38:36\x20GMT\r\nX-Spip-Cache:
-SF:\x2086400\r\nLast-Modified:\x20Sat,\x2014\x20Dec\x202024\x2013:38:36\x2
-SF:0GMT\r\nVary:\x20Accept-Encoding\r\nConnection:\x20close\r\nContent-Typ
-SF:e:\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-dje
-SF:pva-association2\.cegedim\.cloud-HTTP=!nLQBZLCs2OjWNX5Eb0fFdwp3a2v5llxN
-SF:eDrbxParwea1ZtMSsBqRgPeSPYB2Ov0sQSMwIj90LgRHRYblbHExen4TisM=;\x20path=/
+|_http-trane-info: Problem with XML parsing of /evox/about
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=67866581%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,6C,"HTTP/1\.0\x20302\x20Moved\x20Temporarily\r\nLocation:\x
+SF:20https:///\r\nServer:\x20BigIP\r\nConnection:\x20close\r\nContent-Leng
+SF:th:\x200\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=67866587%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,3869,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Tue,\x2014\
+SF:x20Jan\x202025\x2013:24:23\x20GMT\r\nX-Spip-Cache:\x2086400\r\nLast-Mod
+SF:ified:\x20Tue,\x2014\x20Jan\x202025\x2013:24:23\x20GMT\r\nVary:\x20Acce
+SF:pt-Encoding\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20c
+SF:harset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-djepva-association2\.ceg
+SF:edim\.cloud-HTTP=!qd8G4MKbwNdm6e9Eb0fFdwp3a2v5lksbtzaisUzaxSkQg/hqOyIGC
+SF:gAV6mtz78lqqaksDL9TV0x79Ywcwfl0jvvkGf0=;\x20path=/;\x20Httponly;\x20Sec
+SF:ure\r\nStrict-Transport-Security:\x20max-age=31536000;\x20includeSubDom
+SF:ains\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20class=\"page_sommaire\x20sans_
+SF:composition\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"\x20dir=\"ltr\">\n\t<
+SF:head>\n\t\t<script\x20type='text/javascript'>/\*<!\[CDATA\[\*/\(functio
+SF:n\(H\){H\.className=H\.className\.replace\(/\\bno-js\\b/,'js'\)}\)\(doc
+SF:ument\.documentElement\);/\*\]\]>\*/</script>\n\t\t\n\t\t<meta\x20http-
+SF:equiv=\"Content-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>
+SF:\n\n\t\t<title>Associations\.gouv\.fr\x20\|\x20Cr\xc3\xa9er,\x20g\xc3\x
+SF:a9rer\x20et\x20d\xc3\xa9velopper\x20son\x20association</title>\r\n<meta
+SF:\x20name=\"description")%r(HTTPOptions,11D4,"HTTP/1\.1\x20200\x20OK\r\n
+SF:Date:\x20Tue,\x2014\x20Jan\x202025\x2013:24:24\x20GMT\r\nX-Spip-Cache:\
+SF:x2086400\r\nLast-Modified:\x20Tue,\x2014\x20Jan\x202025\x2013:24:24\x20
+SF:GMT\r\nVary:\x20Accept-Encoding\r\nConnection:\x20close\r\nContent-Type
+SF::\x20text/html;\x20charset=utf-8\r\nSet-Cookie:\x20BIGipServerpool-djep
+SF:va-association2\.cegedim\.cloud-HTTP=!QIJ0yNgHPiycmsxEb0fFdwp3a2v5li3zr
+SF:b1t\+eK0miccojazwQMEnNOYx4o2O53T11YhX5NCVC2nB3kORBtTJRraW1s=;\x20path=/
 SF:;\x20Httponly;\x20Secure\r\nStrict-Transport-Security:\x20max-age=31536
 SF:000;\x20includeSubDomains\r\n\r\n<!DOCTYPE\x20HTML>\n<html\x20class=\"p
 SF:age_sommaire\x20sans_composition\x20ltr\x20fr\x20no-js\"\x20lang=\"fr\"
@@ -80,7 +93,6 @@ SF:t\n\t\t<meta\x20http-equiv=\"Content-Type\"\x20content=\"text/html;\x20
 SF:charset=utf-8\"\x20/>\n\n\t\t<title>Associations\.gouv\.fr\x20\|\x20Cr\
 SF:xc3\xa9er,\x20g\xc3\xa9rer\x20et\x20d\xc3\xa9velopper\x20son\x20associa
 SF:tion</title>\r\n<meta\x20name=\"description");
-Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Dec 14 13:40:51 2024 -- 1 IP address (1 host up) scanned in 158.65 seconds
+# Nmap done at Tue Jan 14 13:26:47 2025 -- 1 IP address (1 host up) scanned in 163.65 seconds
