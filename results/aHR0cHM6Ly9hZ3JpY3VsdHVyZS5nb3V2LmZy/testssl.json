@@ -353,7 +353,7 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "290 >= 60 days"
+              "finding"      : "259 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,21 +549,21 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+12 seconds from localtime"
+              "finding"      : "+211 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734180319"
+              "finding"      : "1736858758"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "13 seconds"
+              "finding"      : "212 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1147,6 +1147,6 @@
               "ip"           : "agriculture.gouv.fr/185.161.46.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "131"
+              "finding"      : "193"
           }
 ]
