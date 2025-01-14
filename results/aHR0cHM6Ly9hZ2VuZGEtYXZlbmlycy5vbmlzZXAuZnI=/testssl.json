@@ -262,7 +262,7 @@
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "B120DDA06F098C8283DB6379F1019850"
+              "finding"      : "1F3DB9B3BC25A23394ACD86EDC18272C"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4ED9D63117DB85F546068D551755D30827D1205B"
+              "finding"      : "90C08D04B94777148D7FE57D08A0078A517C05E3"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "D145819F36C50554E0C39E1FC499F23DE096733A3F49B3D78D50D74EFEFFFB61"
+              "finding"      : "7BA39A58D98BD2D2F7CF264D1CA79BE56B89505E66A9729F46A42A1183B3D929"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIIfTCCBmWgAwIBAgIRALEg3aBvCYyCg9tjefEBmFAwDQYJKoZIhvcNAQEMBQAwRDELMAkGA1UEBhMCTkwxGTAXBgNVBAoTEEdFQU5UIFZlcmVuaWdpbmcxGjAYBgNVBAMTEUdFQU5UIE9WIFJTQSBDQSA0MB4XDTI0MDYwNTAwMDAwMFoXDTI1MDYwNTIzNTk1OVowgYMxCzAJBgNVBAYTAkZSMRcwFQYDVQQIDA7DjmxlLWRlLUZyYW5jZTFFMEMGA1UEChM8T0ZGSUNFIE5BVC4gRCBJTkZPLiBTVVIgTEVTIEVOU0VJR05FTUVOVFMgRVQgTEVTIFBST0ZFU1NJT05TMRQwEgYDVQQDDAsqLm9uaXNlcC5mcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMRH9GZnIhvHC2O3pyqLww+SfBR4f7eZEhV9HLEovG6NGHFqM5Zuhloq/n45J/0+C7ir6kdn6I/Jdjsadbk4zkqi3U0UGZWdbjVUDW1Q3CMEJgjEonV8XIqw6upkyZJVR8kQoJ82nquu4d0IsrC2gUrQ9rg1+0sPpvXk3NgcvxNN59ED78gC1X/rMmW3TXJaTCwmEK7bHO6kMA2EQrO22BSS8ukw6Odetl1jANj6r31BmhNDZ1txfb7YsJb418Zv7/PbP4jrIoonhMXRlEUp31cM9ZK6XdVu40q+Tz5UadaOrRTqjpMtvlmHrhxwfhNPPv2bEDQQ6bgH6bmDC5T9SHDydbGLcLPq+l6g5MYDw8qiOSVUP7Dc5DCBSxch2LcqqPMHRjSC2w5fKXEwZn6/2uEzVCEF5iHP6qQ+BS/QcIXxeX1THdVO+vDcxge5hAz92j9O9Qd1dxZKamV+dIIRwL1TnwKbbMaMj0R4esNAnXJEtmOkxu5UzrgpynsJt/a4GFCjA4r9BZjrc5YRWyklyarUwfLKVTeZHKydhiOlUcwDCj9wNvVBde5uF9MUOLjsmdsYbKXq3SQoHlni8crOtcXZrrHqrEFVH/x/ty3dWeVa67ImTN1nEhKLCt8A+Sdyf7YZSU3mGvlSsGYeiT4v9KDpOwsFOF44GozcLHsopvYzAgMBAAGjggMoMIIDJDAfBgNVHSMEGDAWgBRvHTVJEGwy+lmgnryK6B+VvnF6DDAdBgNVHQ4EFgQU1B7ILgO+rXs6tcybE9q++55vdWAwDgYDVR0PAQH/BAQDAgWgMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMEkGA1UdIARCMEAwNAYLKwYBBAGyMQECAk8wJTAjBggrBgEFBQcCARYXaHR0cHM6Ly9zZWN0aWdvLmNvbS9DUFMwCAYGZ4EMAQICMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHA6Ly9HRUFOVC5jcmwuc2VjdGlnby5jb20vR0VBTlRPVlJTQUNBNC5jcmwwdQYIKwYBBQUHAQEEaTBnMDoGCCsGAQUFBzAChi5odHRwOi8vR0VBTlQuY3J0LnNlY3RpZ28uY29tL0dFQU5UT1ZSU0FDQTQuY3J0MCkGCCsGAQUFBzABhh1odHRwOi8vR0VBTlQub2NzcC5zZWN0aWdvLmNvbTAhBgNVHREEGjAYggsqLm9uaXNlcC5mcoIJb25pc2VwLmZyMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdQDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAY/lv6ziAAAEAwBGMEQCIFKUv+SZHFc5tQSTdkbBjd+9l9+vaNVw5ytXNXCakY6GAiBtX7k42KzYxM/vv1yk9RxLL2jNX00h7NQjAic+2HIgegB2AKLjCuRF772tm3447Udnd1PXgluElNcrXhssxLlQpEfnAAABj+W/rKkAAAQDAEcwRQIhAJGdl/HqJ12FAJ+gzQL77QVE4N81u4Cq1PSOLLo6iChlAiA4Rk6PGMR0ZbOLQLAhLSzKcQ3/nN2pAtlJA8omQ/nG6AB2AE51oydcmhDDOFts1N8/Uusd8OCOG41pwLH6ZLFimjnfAAABj+W/rI4AAAQDAEcwRQIhAL8S+OnecHdUNdFvIqEUPkdoXTqtyB44PeNjVPZBSHgrAiA6WmeaVlcj+6NSlKJQJmvf25gcztH4B3ginZ1S0jYjkjANBgkqhkiG9w0BAQwFAAOCAgEAFv8aIG6NIHC/ACsm9mMzW3kYDXDfDKAXWv9xIIiLMfgyh8RLxAcq8Y/Q82MDmwP/CN6OSRl2DLMkJWblhWQBdo7P22ecBzBNGvOQ5HlAgQZINw3z/yztdZDpKl5E+8DFZ1ObanCungWF4TrZ/FMs4MY7pmrDyMtvAnkpyt+pww2pFgNubFx9pHEBXqhFuzLZmRVa26HNohrMnKQjBrmP/9kS0guuRkKn4ZLZ24g4j0turgw9KsnGJYAv7Ne/taDvlE52uYX/TiI7mQSI/hKfI5jXnRWGQXi7xSAClewBtMwufcDlFqpjK+YvImSc1QIls0C8NXKIboMs9WVpUufGPpO8z3dUhYf3t042DQ2eyS8+a6RculiGi25rPkt/hNfJ9NzoCkY7nZTLA2qrrSlD3UpIh968EtyZU+2akXsb7duW52k21ywAktsg91P+CCsnVTDUfUOAUyoltGeZMrN1sVV85pfmfLIXn0cBSXgUel4vXqi2buQp0JV/Zc5k/QEhCJ2plsE8jK7QSc02/sg8ExxLEe3iDLWBVwPgiPgfOIB3FOLCrQ8hrQDwfW3GGGQtc+g6mkRfJaYipruFbyeJv7m/w0AatWhG0Pwjgo1dR+Mm7u5l8/Crafe39QLpuETelKXGeRkT0HJr4WjKbGWRPBIq78mqYpnV2rr3ptaXuTI=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "173 >= 60 days"
+              "finding"      : "338 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-06-05 00:00"
+              "finding"      : "2024-12-18 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-06-05 23:59"
+              "finding"      : "2025-12-18 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -598,7 +598,7 @@
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1734180064"
+              "finding"      : "1736858454"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -827,7 +827,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=D145819F36C50554E0C39E1FC499F23DE096733A3F49B3D78D50D74EFEFFFB61"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=7BA39A58D98BD2D2F7CF264D1CA79BE56B89505E66A9729F46A42A1183B3D929"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
@@ -1203,6 +1203,6 @@
               "ip"           : "agenda-avenirs.onisep.fr/195.83.117.42",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "112"
+              "finding"      : "80"
           }
 ]
