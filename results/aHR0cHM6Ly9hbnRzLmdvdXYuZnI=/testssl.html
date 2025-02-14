@@ -10,7 +10,7 @@
 <pre>
 <span style="font-weight:bold;">
 #####################################################################</span>
-  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc3</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
+  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc4</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
 <span style="font-weight:bold;">
   This program is free software. Distribution and modification under
   GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!</span>
@@ -20,9 +20,9 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az1441-246:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1057-468:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2025-01-14 13:08:18                --&gt;&gt; 66.22.33.160:443 (ants.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-14 13:11:04                --&gt;&gt; 66.22.33.160:443 (ants.gouv.fr) &lt;&lt;--</span>
 
  rDNS (66.22.33.160):    --
  Service detected:       HTTP
@@ -97,7 +97,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               &quot;extended master secret/#23&quot;
 <span style="font-weight:bold;"> Session Ticket RFC 5077 hint </span>600 seconds, session tickets keys seems to be rotated &lt; daily
 <span style="font-weight:bold;"> SSL Session ID support       </span>yes
-<span style="font-weight:bold;"> Session Resumption           </span>Tickets: yes, ID: no
+<span style="font-weight:bold;"> Session Resumption           </span>Tickets no, ID: no
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Certificate Compression      </span>none
 <span style="font-weight:bold;"> Client Authentication        </span>none
@@ -124,7 +124,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (same w/o SNI)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">108 &gt;= 60 days</span> (2024-05-02 22:00 --&gt; 2025-05-02 21:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">77 &gt;= 60 days</span> (2024-05-02 22:00 --&gt; 2025-05-02 21:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl.certigna.fr/servicesca.crl
                               http://crl.dhimyotis.com/servicesca.crl
@@ -142,14 +142,15 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
-<span style="font-weight:bold;"> HTTP Status Code           </span>  302 Moved Temporarily, redirecting to &quot;<a href="https://validate.perfdrive.com/d9591a763813cfa3c46a5696d6f2a2aa/?ssa=8e252a11-d8d7-4c1b-b578-a01333c035f7&ssb=00253218384&ssc=https%3A%2F%2Fants.gouv.fr%2F&ssi=ab1c6b11-cslv-4149-8116-d0796486ed9f&ssk=botmanager_support@radware.com&ssm=84800130058269687102045688306475&ssn=d75b20ed821574f40d93698d93ae93a011ab6c757d00-7fdd-4d39-9de7f5&sso=194108b2-ff2a80f924ac71c7f9981b2acdc6b7880e27af673c11f48b&ssp=24629596081736857760173683875857946&ssq=20839446012970067212860129680482507055793&ssr=MTcyLjIwMC4xOTkuMTQ0&sst=TLS tester from https://testssl.sh/dev/&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjYwMDAxOGQyMDYxOS1kOWZhLTQ0MDQtYmEzMS0yOWFmYTJiZWVmYzUxNzM2ODYwMTI5NTcyMC04Yjc2MjNjYzEwZThiNmY1MTAiLCJ1em14IjoiN2Y5MDAwM2IxZmQ4NGQtYzgwNi00ZGJmLWIxMzgtMjQwNTI0MDc5NTc4MS0xNzM2ODYwMTI5NTcyMC0wNzhmYmM3ZWYxMzEzZjdkMTAiLCJyZCI6ImFudHMtMi5nb3V2LmZyIn0=" style="color:black;text-decoration:none;">https://validate.perfdrive.com/d9591a763813cfa3c46a5696d6f2a2aa/?ssa=8e252a11-d8d7-4c1b-b578-a01333c035f7&ssb=00253218384&ssc=https%3A%2F%2Fants.gouv.fr%2F&ssi=ab1c6b11-cslv-4149-8116-d0796486ed9f&ssk=botmanager_support@radware.com&ssm=84800130058269687102045688306475&ssn=d75b20ed821574f40d93698d93ae93a011ab6c757d00-7fdd-4d39-9de7f5&sso=194108b2-ff2a80f924ac71c7f9981b2acdc6b7880e27af673c11f48b&ssp=24629596081736857760173683875857946&ssq=20839446012970067212860129680482507055793&ssr=MTcyLjIwMC4xOTkuMTQ0&sst=TLS tester from https://testssl.sh/dev/&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjYwMDAxOGQyMDYxOS1kOWZhLTQ0MDQtYmEzMS0yOWFmYTJiZWVmYzUxNzM2ODYwMTI5NTcyMC04Yjc2MjNjYzEwZThiNmY1MTAiLCJ1em14IjoiN2Y5MDAwM2IxZmQ4NGQtYzgwNi00ZGJmLWIxMzgtMjQwNTI0MDc5NTc4MS0xNzM2ODYwMTI5NTcyMC0wNzhmYmM3ZWYxMzEzZjdkMTAiLCJyZCI6ImFudHMtMi5nb3V2LmZyIn0=</a>&quot;
+<span style="font-weight:bold;"> HTTP Status Code           </span>  302 Moved Temporarily, redirecting to &quot;<a href="https://validate.perfdrive.com/d9591a763813cfa3c46a5696d6f2a2aa/?ssa=ce55c460-3cd5-4f52-b453-208aaeb2ddfe&ssb=65240264609&ssc=https%3A%2F%2Fants.gouv.fr%2F&ssi=4f7d168d-cslv-491a-a5dc-8a152a6d0564&ssk=botmanager_support@radware.com&ssm=72268962936622872103474085954427&ssn=080379b915e9f4d6174c7d95bdcd7607d80ec3d61d69-b3a6-4525-99fe5a&sso=993e7c76-89903d3f553ea5554181be47fd35fc5b5deb7ff491724384&ssp=32005709781739551632173959066470113&ssq=12606453871169563096038711042093865030753&ssr=MjAuNDkuNTUuMTQ0&sst=TLS tester from https://testssl.sh/dev/&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImFudHMtMi5nb3V2LmZyIiwiX191em1mIjoiN2Y2MDAwOTYwNWY4Y2EtMGMyNC00MDVjLWFmNjYtZjc2MWMzYzk5NzY2MTczOTUzODcxMTYyNzAtNWRjNDIzZTg3YjNiNTEyYzEwIiwidXpteCI6IjdmOTAwMGQ0MDNhYzNhLWY4Y2QtNDEwNi1iMGQzLWU0NjlhMDU0MjY2ZTEtMTczOTUzODcxMTYyNzAtYTkyMjI0ZjE5OTM3ZmE5YTEwIn0=" style="color:black;text-decoration:none;">https://validate.perfdrive.com/d9591a763813cfa3c46a5696d6f2a2aa/?ssa=ce55c460-3cd5-4f52-b453-208aaeb2ddfe&ssb=65240264609&ssc=https%3A%2F%2Fants.gouv.fr%2F&ssi=4f7d168d-cslv-491a-a5dc-8a152a6d0564&ssk=botmanager_support@radware.com&ssm=72268962936622872103474085954427&ssn=080379b915e9f4d6174c7d95bdcd7607d80ec3d61d69-b3a6-4525-99fe5a&sso=993e7c76-89903d3f553ea5554181be47fd35fc5b5deb7ff491724384&ssp=32005709781739551632173959066470113&ssq=12606453871169563096038711042093865030753&ssr=MjAuNDkuNTUuMTQ0&sst=TLS tester from https://testssl.sh/dev/&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImFudHMtMi5nb3V2LmZyIiwiX191em1mIjoiN2Y2MDAwOTYwNWY4Y2EtMGMyNC00MDVjLWFmNjYtZjc2MWMzYzk5NzY2MTczOTUzODcxMTYyNzAtNWRjNDIzZTg3YjNiNTEyYzEwIiwidXpteCI6IjdmOTAwMGQ0MDNhYzNhLWY4Y2QtNDEwNi1iMGQzLWU0NjlhMDU0MjY2ZTEtMTczOTUzODcxMTYyNzAtYTkyMjI0ZjE5OTM3ZmE5YTEwIn0=</a>&quot;
 <span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
-<span style="font-weight:bold;"> Server banner                </span>rdwr
+<span style="font-weight:bold;"> Server banner                </span>rdwr&apos;
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>7 issued: <span style="color:#c05600;">NONE</span> secure, <span style="color:#008817;">7/7</span> HttpOnly -- maybe better try target URL of 30x
 <span style="font-weight:bold;"> Security headers             </span>Access-Control-Allow-Origin: *
+                              Access-Control-Allow-Credentials: true
                               Cache-Control: no-store, no-cache,
                                 must-revalidate, post-check=0, pre-check=0
 <span style="font-weight:bold;"> Reverse Proxy banner         </span>--
@@ -231,7 +232,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2025-01-14 13:09:18 [  64s] --&gt;&gt; 66.22.33.160:443 (ants.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-14 13:12:25 [  85s] --&gt;&gt; 66.22.33.160:443 (ants.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
