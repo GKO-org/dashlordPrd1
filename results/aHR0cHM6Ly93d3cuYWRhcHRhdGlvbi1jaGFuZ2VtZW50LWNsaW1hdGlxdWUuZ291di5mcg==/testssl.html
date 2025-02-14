@@ -10,7 +10,7 @@
 <pre>
 <span style="font-weight:bold;">
 #####################################################################</span>
-  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc3</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
+  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc4</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
 <span style="font-weight:bold;">
   This program is free software. Distribution and modification under
   GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!</span>
@@ -20,9 +20,9 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az1950-252:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1112-175:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2025-01-14 12:30:07                --&gt;&gt; 192.93.225.50:443 (www.adaptation-changement-climatique.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-14 12:30:32                --&gt;&gt; 192.93.225.50:443 (www.adaptation-changement-climatique.gouv.fr) &lt;&lt;--</span>
 
  rDNS (192.93.225.50):   --
  Service detected:       HTTP
@@ -89,25 +89,25 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>RSA <span style="color:#008817;">4096</span> bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>049A3CDA98391D971BBEADB07C17E5DCAC75 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 9CE809E31FC2DBD5A21F1867A5C14CBCC64706A4
-                              SHA256 ED3B90F4151D6EE0FA2499A1B2B199628A533F07F752AA6047CDE577801F8533
+<span style="font-weight:bold;"> Serial                       </span>044505B8DEB6FC3175E18177258598A54BB8 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 BA2B02D621A4DE14FFA20BBAEE62A8D176BC6273
+                              SHA256 E5A281F0DA6C4C02C11C04CA95C611FEFF0926028DC1BF187B4607B5F2D7DFF2
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>www.adaptation-changement-climatique.gouv.fr </i> (CN in response to request w/o SNI: <i>janus.setra.cs </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>www.adaptation-changement-climatique.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#c05600;">expires &lt; 30 days (17)</span> (2024-11-02 21:40 --&gt; 2025-01-31 21:40)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">46 &gt;= 30 days</span> (2025-01-02 03:24 --&gt; 2025-04-02 03:24)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
 <span style="font-weight:bold;"> Certificate Revocation List  </span>--
-<span style="font-weight:bold;"> OCSP URI                     </span>http://r10.o.lencr.org
+<span style="font-weight:bold;"> OCSP URI                     </span>http://r11.o.lencr.org
 <span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
 <span style="font-weight:bold;"> Certificates provided</span>        2
-<span style="font-weight:bold;"> Issuer                       </span><i>R10</i> (<i>Let&apos;s Encrypt</i> from <i>US</i>)
-<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2027-03-12 23:59). <i>R10</i> &lt;-- <i>ISRG Root X1</i>
+<span style="font-weight:bold;"> Issuer                       </span><i>R11</i> (<i>Let&apos;s Encrypt</i> from <i>US</i>)
+<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2027-03-12 23:59). <i>R11</i> &lt;-- <i>ISRG Root X1</i>
 <span style="font-weight:bold;"> Intermediate Bad OCSP</span> (exp.) <span style="color:#008817;">Ok</span>
 
 
@@ -117,7 +117,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
-<span style="font-weight:bold;"> Server banner                </span>nginx
+<span style="font-weight:bold;"> Server banner                </span>nginx&apos;
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;)
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
@@ -143,7 +143,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=ED3B90F4151D6EE0FA2499A1B2B199628A533F07F752AA6047CDE577801F8533" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=ED3B90F4151D6EE0FA2499A1B2B199628A533F07F752AA6047CDE577801F8533</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E5A281F0DA6C4C02C11C04CA95C611FEFF0926028DC1BF187B4607B5F2D7DFF2" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E5A281F0DA6C4C02C11C04CA95C611FEFF0926028DC1BF187B4607B5F2D7DFF2</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     TLS1: <span style="color:#a86437;">ECDHE-RSA-AES256-SHA
                                                  AES256-SHA
@@ -211,7 +211,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               Grade capped to
                                 A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2025-01-14 12:31:44 [  99s] --&gt;&gt; 192.93.225.50:443 (www.adaptation-changement-climatique.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-14 12:32:02 [  94s] --&gt;&gt; 192.93.225.50:443 (www.adaptation-changement-climatique.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
