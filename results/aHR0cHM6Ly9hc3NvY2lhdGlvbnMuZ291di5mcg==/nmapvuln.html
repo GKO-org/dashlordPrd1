@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln associations.gouv.fr</pre>
-<p class="lead">Tue Jan 14 13:24:04 2025 – Tue Jan 14 13:26:47 2025<br>1 hosts scanned.
+<p class="lead">Fri Feb 14 13:22:05 2025 – Fri Feb 14 13:22:32 2025<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,7 +76,7 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>185.194.83.17</td>
+<td>37.235.93.65</td>
 <td>associations.gouv.fr</td>
 <td>2</td>
 <td>0</td>
@@ -91,8 +91,8 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#185-194-83-17"><h3 class="panel-title">185.194.83.17 - associations.gouv.fr</h3></div>
-<div class="panel-body collapse in" id="185-194-83-17">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#37-235-93-65"><h3 class="panel-title">37.235.93.65 - associations.gouv.fr</h3></div>
+<div class="panel-body collapse in" id="37-235-93-65">
 <h4>Hostnames</h4>
 <ul><li>associations.gouv.fr (user)</li></ul>
 <h4>Ports</h4>
@@ -112,22 +112,11 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">BigIP</td>
+<td title="Product">nginx</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">BigIP</pre>
-<h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  GetRequest: 
-    HTTP/1.0 302 Moved Temporarily
-    Location: https:///
-    Server: BigIP
-    Connection: close
-    Content-Length: 0</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
 <tr class="active">
 <td>113</td>
 <td>tcp</td>
@@ -141,53 +130,12 @@
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">https</td>
-<td title="Product"></td>
+<td title="Service">http</td>
+<td title="Product">nginx</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  GetRequest: 
-    HTTP/1.1 200 OK
-    Date: Tue, 14 Jan 2025 13:24:23 GMT
-    X-Spip-Cache: 86400
-    Last-Modified: Tue, 14 Jan 2025 13:24:23 GMT
-    Vary: Accept-Encoding
-    Connection: close
-    Content-Type: text/html; charset=utf-8
-    Set-Cookie: BIGipServerpool-djepva-association2.cegedim.cloud-HTTP=!qd8G4MKbwNdm6e9Eb0fFdwp3a2v5lksbtzaisUzaxSkQg/hqOyIGCgAV6mtz78lqqaksDL9TV0x79Ywcwfl0jvvkGf0=; path=/; Httponly; Secure
-    Strict-Transport-Security: max-age=31536000; includeSubDomains
-    &lt;!DOCTYPE HTML&gt;
-    &lt;html class="page_sommaire sans_composition ltr fr no-js" lang="fr" dir="ltr"&gt;
-    &lt;head&gt;
-    &lt;script type='text/javascript'&gt;/*&lt;![CDATA[*/(function(H){H.className=H.className.replace(/bno-jsb/,'js')})(document.documentElement);/*]]&gt;*/&lt;/script&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
-    &lt;title&gt;Associations.gouv.fr | Cr
-    velopper son association&lt;/title&gt;
-    &lt;meta name="description
-  HTTPOptions: 
-    HTTP/1.1 200 OK
-    Date: Tue, 14 Jan 2025 13:24:24 GMT
-    X-Spip-Cache: 86400
-    Last-Modified: Tue, 14 Jan 2025 13:24:24 GMT
-    Vary: Accept-Encoding
-    Connection: close
-    Content-Type: text/html; charset=utf-8
-    Set-Cookie: BIGipServerpool-djepva-association2.cegedim.cloud-HTTP=!QIJ0yNgHPiycmsxEb0fFdwp3a2v5li3zrb1t+eK0miccojazwQMEnNOYx4o2O53T11YhX5NCVC2nB3kORBtTJRraW1s=; path=/; Httponly; Secure
-    Strict-Transport-Security: max-age=31536000; includeSubDomains
-    &lt;!DOCTYPE HTML&gt;
-    &lt;html class="page_sommaire sans_composition ltr fr no-js" lang="fr" dir="ltr"&gt;
-    &lt;head&gt;
-    &lt;script type='text/javascript'&gt;/*&lt;![CDATA[*/(function(H){H.className=H.className.replace(/bno-jsb/,'js')})(document.documentElement);/*]]&gt;*/&lt;/script&gt;
-    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
-    &lt;title&gt;Associations.gouv.fr | Cr
-    velopper son association&lt;/title&gt;
-    &lt;meta name="description</pre>
-<h5>http-trane-info</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">Problem with XML parsing of /evox/about</pre>
-</td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
 </tbody>
 </table></div>
 </div>
@@ -206,23 +154,23 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>185.194.83.17 - associations.gouv.fr</td>
+<td>37.235.93.65 - associations.gouv.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>BigIP</td>
+<td>nginx</td>
 <td></td>
-<td></td>
+<td>cpe:/a:igor_sysoev:nginx</td>
 <td></td>
 </tr>
 <tr>
-<td>185.194.83.17 - associations.gouv.fr</td>
+<td>37.235.93.65 - associations.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>https</td>
+<td>http</td>
+<td>nginx</td>
 <td></td>
-<td></td>
-<td></td>
+<td>cpe:/a:igor_sysoev:nginx</td>
 <td></td>
 </tr>
 </tbody>
